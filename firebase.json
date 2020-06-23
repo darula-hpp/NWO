@@ -1,17 +1,38 @@
 {
   "hosting": {
     "public": "public",
+    "predeploy": "cd /home/darula/dev/geezusdarula/dev && ./obfuscate",
     "ignore": [
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
     ],
-    "cleanUrls": true,
     "rewrites": [
       {
         "source": "**",
         "destination": "/index.html"
       }
-    ]
+    ],
+    "cleanUrls": true,
+
+    "headers": [ {
+      "source": "**/*.@(eot|otf|ttf|ttc|woff|font.css)",
+      "headers": [ {
+        "key": "Access-Control-Allow-Origin",
+        "value": "*"
+      } ]
+    }, {
+      "source": "**/*.@(jpg|jpeg|gif|png|pdf|PDF|js)",
+      "headers": [ {
+        "key": "Cache-Control",
+        "value": "max-age=7200"
+      } ]
+    }, {
+      "source": "kak.js",
+      "headers": [ {
+        "key": "Cache-Control",
+        "value": "max-age=7200"
+      } ]
+    } ]
   }
 }

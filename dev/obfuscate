@@ -1,0 +1,6 @@
+#!/bin/bash
+php stitch.php
+
+javascript-obfuscator merged.js --target browser --string-array true --shuffle-string-array -- true --disable-console-output true --debug-protection-interval true --compact true --debug-protection true --self-defending true --transform-object-keys true --rotate-string-array true --rename-globals true --output ../public/twadye/kak.js
+# javascript-obfuscator merged.js --target browser --string-array true --shuffle-string-array -- true --compact true --transform-object-keys true --rotate-string-array true --rename-globals true --output ../public/twadye/kak.js
+
