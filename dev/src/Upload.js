@@ -23,7 +23,6 @@ function Upload()
     Upload.prototype.upload = function()
     {
         let url = window.location.href;
-        alert(AuthManager.EMAIL)
         if(AuthManager.EMAIL !== "olebogeng350@gmail.com")
         {
             VCastUiManager.swalInfor("Not allowed", "You are not allowed to upload Files");

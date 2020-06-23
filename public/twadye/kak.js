@@ -227,6 +227,7 @@ function Upload()
         let url = window.location.href;
         if(AuthManager.EMAIL !== "olebogeng350@gmail.com")
         {
+            VCastUiManager.swalInfor("Not allowed", "You are not allowed to upload Files");
             return;
         }
         let title = $('#title').val();
