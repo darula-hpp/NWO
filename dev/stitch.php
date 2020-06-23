@@ -30,7 +30,7 @@ function loadFiles(string $base_dir, string $file_type, array &$all_files = [])
 }
 
 
-$base = "/home/darula/dev/vcast/dev/src";
+$base = "/home/darula/dev/geezuzdarula/dev/src";
 $files = [];
 loadFiles($base, "js", $files);
 

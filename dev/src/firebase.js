@@ -8,14 +8,14 @@ var Firebase= (function () {
 
     function createInstance() {
         return {
-            apiKey: "AIzaSyCaGfvc08Z3ILPFwMB09phkF_dVgBmq12g",
-            authDomain: "vcast-1c14c.firebaseapp.com",
-            databaseURL: "https://vcast-1c14c.firebaseio.com",
-            projectId: "vcast-1c14c",
-            storageBucket: "vcast-1c14c.appspot.com",
-            messagingSenderId: "167097156264",
-            appId: "1:167097156264:web:8b64aca0fbb33778b1f89d",
-            measurementId: "G-33L81ZTP7V"
+            apiKey: "AIzaSyDUFt49735p3vc8Q7gGCaitreadfEUXi6Q",
+            authDomain: "geezusdarula.firebaseapp.com",
+            databaseURL: "https://geezusdarula.firebaseio.com",
+            projectId: "geezusdarula",
+            storageBucket: "geezusdarula.appspot.com",
+            messagingSenderId: "461964498281",
+            appId: "1:461964498281:web:d13d5de4bf42ca7ecb59f8",
+            measurementId: "G-G1ZSV7JY1G"
         };
     }
 
