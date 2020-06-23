@@ -14,6 +14,14 @@ function Upload()
         }
 
         $('#login_space').html(VCastUiManager.renderLoginModal());
+        $('#upload_film').on('click', ()=>{
+            upload.upload();
+        })
+    }
+
+    Upload.prototype.upload = function()
+    {
+        alert("Will upload");
     }
 
     Upload.getUploadForm = function ()
