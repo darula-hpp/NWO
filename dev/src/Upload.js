@@ -50,7 +50,7 @@ function Upload()
         }
 
         if (file_type !== "video/mp4") {
-            VCastUiManager.swalInfor("Please upload an MP4 File");
+            VCastUiManager.swalInfor(`Please upload an MP4 File, file is ${file_type}`);
             return false;
         }
 
@@ -105,7 +105,7 @@ function Upload()
 
     <hr>
 
-    <button type="submit" class="btn btn-success mb-2" id="upload_film">Create Profile</button>
+    <button type="submit" class="btn btn-success mb-2" id="upload_film">Upload Video</button>
     <div class="progress" id="upload_progress" style="display: none;" >
         <div id="upload_progress_bar" class="progress-bar progress-bar-success" role="progressbar"  aria-valuenow="1" aria-valuemin="0" aria-valuemax="100"></div>
 </div>

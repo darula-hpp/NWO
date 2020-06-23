@@ -47,7 +47,9 @@ function Series()
                     VCastUiManager.removeLoadingIcon();
                     $('#films').append(`<div class="row" style="margin-left: auto; margin-right: auto"><div class="card" style="width: 18rem">
 
-    <video class="card-img-top" controls playsinline src="${video_url}"></video>
+    <video class="card-img-top" controls playsinline loop>
+    <source src="${video_url}">
+</video>
     <div class="card-body">
       <h5 class="card-title">${title}</h5>
       <small style="color: rgb(59,57,57); text-decoration: none">${time_string}</small>
