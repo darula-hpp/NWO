@@ -1,69 +1,116 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE HTML>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Geezus - Jesus Inspired Geezus Piece</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-  <meta property="og:title"         content="Geezus Clothing" />
-  <meta property="og:description"   content="The real Geezus Piece" />
-  <meta property="og:url"           content="https://geezusdarula.web.app"/>
-  <meta property="og:type"          content="website" />
-  <meta property="og:image"          content="https://geezusdarula.web.app/images/logo.png" />
-  <!--<script src="libs/thirdparty/jquery-3.1.0.min.js"></script>-->
-  <script src="https://www.gstatic.com/firebasejs/7.12.0/firebase-app.js"></script>
-  <script src="twadye/VCastUiManager.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
 
-  <!-- TODO: Add SDKs for Firebase products that you want to use
-       https://firebase.google.com/docs/web/setup#available-libraries -->
-  <script src="https://www.gstatic.com/firebasejs/7.12.0/firebase-database.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/7.12.0/firebase-auth.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/7.12.0/firebase-storage.js"></script>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <link rel="stylesheet" href="static/css/style.css">
-  <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">-->
-  <!-- Latest compiled and minified JavaScript -->
-  <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>-->
-  <title>The New World Order - A preparation for the 8IR Series</title>
 
-  <link rel="apple-touch-icon" sizes="57x57" href="static/assets/apple-icon-57x57.png">
-  <link rel="apple-touch-icon" sizes="60x60" href="static/assets/apple-icon-60x60.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="static/assets/apple-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="76x76" href="static/assets/apple-icon-76x76.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="static/assets/apple-icon-114x114.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="static/assets/apple-icon-120x120.png">
-  <link rel="apple-touch-icon" sizes="144x144" href="static/assets/apple-icon-144x144.png">
-  <link rel="apple-touch-icon" sizes="152x152" href="static/assets/apple-icon-152x152.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="static/assets/apple-icon-180x180.png">
-  <link rel="icon" type="image/png" sizes="192x192"  href="static/assets/android-icon-192x192.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="static/assets/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="96x96" href="static/assets/favicon-96x96.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="static/assets/favicon-16x16.png">
-  <meta name="msapplication-TileColor" content="#ffffff">
-  <meta name="msapplication-TileImage" content="static/assets/ms-icon-144x144.png">
-  <meta name="theme-color" content="#ffffff">
+  <!-- Font -->
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700%7CPoppins:400,500" rel="stylesheet">
+
+  <!-- Stylesheets -->
+
+  <link href="common-css/bootstrap.css" rel="stylesheet">
+
+
+  <link href="common-css/ionicons.css" rel="stylesheet">
+
+
+  <link rel="stylesheet" href="common-css/jquery.classycountdown.css" />
+
+  <link href="01-comming-soon/css/styles.css" rel="stylesheet">
+
+  <link href="01-comming-soon/css/responsive.css" rel="stylesheet">
+
 </head>
-  <body>
-  <section id="mobile_nav" style="position: absolute;top: 0;height: 40px; width:100%;z-index: 1;">
-    <div style="top:0;margin-left: 0;margin-right: 0; width: 100%" id="main_nav_cust">
-      <a href="series.html"><img src="static/images/logo_transparent3.png" style="max-height: 40px;"></a>
-      <div style="position: absolute; margin-left: auto; margin-right: auto; left: 40%; top: 5px;" id="hours_status"></div>
+<body>
 
-      <a style="top: 5px; float: right; right: 5px; margin-right: 10px;"  id="whatsapp_share" href="whatsapp://send?text=Watch the New Testament Series on https://geezusdarula.web.app" data-action="share/whatsapp/share"><ion-icon name="logo-whatsapp" style="color: #25D366; background-color: #fff; font-size: 32px;"></ion-icon></a>
-      <a style="top: 5px; float: right; right: 5px; margin-right: 10px;"  id="book_open" href="NewTestament.html" data-action="share/whatsapp/share"><ion-icon name="book" style="color: #25D366; font-size: 32px;"></ion-icon></a>
-      <a style="top: 5px; float: right; right: 5px; margin-right: 10px;"  id="series_open" href="series.html" data-action="share/whatsapp/share"><ion-icon name="film" style="color: #25D366; font-size: 32px;"></ion-icon></a>
+<div class="main-area">
+  <div class="container full-height position-static">
+
+    <section class="left-section full-height">
+
+        <a class="logo" href="#" style="font-size: 32px;">Geezus</a>
 
 
-      <div data-step="4" data-intro="Share your session here!" style="top: 10px; right: 5px; margin-right: 20px; float: right" id="prof_image_space"></div>
-    </div>
-  </section>
+      <div class="display-table">
+        <div class="display-table-cell">
+          <div class="main-content">
+            <h1 class="title"><b>Jesus Inspired Geezus Apparel</b></h1>
+            <p>Our website is currently undergoing scheduled maintenance.
+              We Should be back shortly. Thank you for your patience.</p>
 
-  <div id="login_space"></div>
-  <div class="container" id="main_container" style="margin-top: 70px;">
-    <!-- loader -->
-    <h1>Geezus Piece Coming Soon</h1>
-  </div>
+            <div class="email-input-area">
+              <form method="post">
+                <input class="email-input" name="email" type="text" placeholder="Enter your email"/>
+                <button class="submit-btn" name="submit" type="submit"><b>NOTIFY US</b></button>
+              </form>
+            </div><!-- email-input-area -->
 
-  </body>
+            <p class="post-desc">Sign up now to get early notification of our lauch date!</p>
+          </div><!-- main-content -->
+        </div><!-- display-table-cell -->
+      </div><!-- display-table -->
+
+      <ul class="footer-icons">
+        <li>Stay in touch : </li>
+        <li><a href="https://facebook.com/geezusdarula"><i class="ion-social-facebook"></i></a></li>
+        <li><a href="https://twitter.com/OlebogengMbedzi"><i class="ion-social-twitter"></i></a></li>
+        <li><a href="https://www.instagram.com/geezusdarula/"><i class="ion-social-instagram-outline"></i></a></li>
+        <li><a href="https://wa.com/26773867278"><i class="ion-social-whatsapp"></i></a></li>
+      </ul>
+
+    </section><!-- left-section -->
+
+
+
+    <section>
+      <div>
+        <a href="#" style="font-size: 20px;">Read Book</a><br>
+
+        <a href="#" style="font-size: 20px;">Watch Series</a>
+      </div>
+    </section>
+
+    <section class="right-section" style="background-image: url(images/geezus.jpeg)">
+
+      <div class="display-table center-text">
+        <div class="display-table-cell">
+
+
+          <div id="rounded-countdown">
+            <div class="countdown" data-remaining-sec="2000000"></div>
+          </div>
+
+        </div><!-- display-table-cell -->
+      </div><!-- display-table -->
+
+    </section><!-- right-section -->
+
+  </div><!-- container -->
+</div><!-- main-area -->
+
+<!-- SCIPTS -->
+
+<script src="common-js/jquery-3.1.1.min.js"></script>
+
+<script src="common-js/tether.min.js"></script>
+
+<script src="common-js/bootstrap.js"></script>
+
+<script src="common-js/jquery.classycountdown.js"></script>
+
+<script src="common-js/jquery.knob.js"></script>
+
+<script src="common-js/jquery.throttle.js"></script>
+
+<script src="common-js/scripts.js"></script>
+
+<!-- WA Bot-->
+<a style="position: fixed; bottom: 10px; right: 10px;" href="https://wa.me/26773867278"><ion-icon name="logo-whatsapp" style="color: #25D366; font-size: 40px;"></ion-icon><a/>
+
+</body>
 </html>

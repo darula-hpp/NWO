@@ -1,1 +1,492 @@
-const a0_0x5d8f=['#upload_btn','hide','#upload_progress_bar','css','width','#video_file','fadeOut','display_name','setItem','getItem','users/','/details','getUserDetails','once','Details\x20do\x20not\x20exist','apiKey','authDomain','geezusdarula.firebaseapp.com','projectId','geezusdarula','storageBucket','geezusdarula.appspot.com','461964498281','appId','1:461964498281:web:d13d5de4bf42ca7ecb59f8','measurementId','getInstance','apply','return\x20/\x22\x20+\x20this\x20+\x20\x22/','compile','^([^\x20]+(\x20+[^\x20]+)+)+[^\x20]}','function\x20*\x5c(\x20*\x5c)','\x5c+\x5c+\x20*(?:[a-zA-Z_$][0-9a-zA-Z_$]*)','test','input','{}.constructor(\x22return\x20this\x22)(\x20)','console','debug','info','exception','table','trace','error','string','constructor','while\x20(true)\x20{}','counter','length','debu','gger','action','stateObject','user','USER_IMAGE','EMAIL','prototype','init','auth','onAuthStateChanged','log','UID','uid','photoURL','email','remove','photo\x20urlf','displayName','photo_url','#prof_image_space','\x22\x20class=\x22img\x20img-circle\x20img-responsive\x20img-thumbnail\x20rounded\x20dropdown-toggle\x20clickable\x22\x20data-toggle=\x22dropdown\x22\x20aria-haspopup=\x22true\x22\x20>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20<ul\x20class=\x22dropdown-menu\x22\x20id=\x22side_menu_dropdown\x22\x20aria-labelledby=\x22side_menu\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<li\x20id=\x22btn_discover\x22><a\x20href=\x22discover\x22>Discover</a><ion-icon\x20style=\x22color:\x20#a4a4a4;float:\x20right;\x20cursor:\x20pointer\x22\x20name=\x22people-outline\x22></ion-icon></li>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<li\x20id=\x22logout_btn\x22\x20style=\x22cursor:\x20pointer\x22>Logout<ion-icon\x20style=\x22color:\x20#a4a4a4;\x20float:\x20right;\x20cursor:\x20pointer\x22\x20name=\x22log-out-outline\x22></ion-icon></li>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</ul>','saveUserDetails','#logout_btn','click','#loginModal','modal','signInWithGoogle','isSignedIn','currentUser','is\x20signed\x20in!!','GoogleAuthProvider','then','credential','accessToken','location','reload','catch','code','message','href','indexOf','series','#main_container','html','wrapper','getFilms','addIcon','films','database','ref','value','keys','forEach','details','time','getMonth','getDate','getFullYear','removeLoadingIcon','#films','<div\x20class=\x22row\x22\x20style=\x22margin-left:\x20auto;\x20margin-right:\x20auto\x22><div\x20class=\x22card\x22\x20style=\x22width:\x2018rem\x22>\x0a\x0a\x20\x20\x20\x20<video\x20class=\x22card-img-top\x22\x20controls\x20playsinline\x20loop>\x0a\x20\x20\x20\x20<source\x20src=\x22','\x22>\x0a</video>\x0a\x20\x20\x20\x20<div\x20class=\x22card-body\x22>\x0a\x20\x20\x20\x20\x20\x20<h5\x20class=\x22card-title\x22>','</h5>\x0a\x20\x20\x20\x20\x20\x20<small\x20style=\x22color:\x20rgb(59,57,57);\x20text-decoration:\x20none\x22>','</small>\x0a\x20\x20\x20\x20\x20\x20<p\x20class=\x22card-text\x22>','</p>\x0a\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20<div\x20class=\x22card-footer\x22>\x0a\x20\x20\x20\x20\x20\x20<a\x20href=\x22https://wa.me/26773867278\x22><ion-icon\x20\x20style=\x22float:\x20left;\x20color:\x20#25D366;\x20width:\x2040px;\x20height:\x2040px;\x20cursor:\x20pointer;\x22\x20name=\x22logo-whatsapp\x22></ion-icon><a/>\x0a\x20\x20\x20\x20\x20\x20\x20<a\x20href=\x22https://www.facebook.com/dialog/share?app_id=1748121785498328&display=popup&href=https://geezusdarula.web.app&redirect_uri=https://geezusdarula.web.app\x22\x20target=\x22_blank\x22><ion-icon\x20\x20style=\x22\x22\x20class=\x22footer_icons\x22\x20name=\x22logo-facebook\x22></ion-icon></a>\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20<a\x20target=\x22_blank\x22\x20href=\x22https://twitter.com/intent/tweet?text=Check%20out%20','%20on%20Geezus%20https://geezusdarula.web.app\x22><ion-icon\x20class=\x22footer_icons\x22\x20name=\x22logo-twitter\x22\x20style=\x22color:\x20#10DFFD\x22></ion-icon></a>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20<a\x20href=\x22tel:+26773867278\x22><ion-icon\x20class=\x22footer_icons\x22\x20style=\x22color:\x20#2dc72d\x22\x20name=\x22call\x22></ion-icon></a>\x0a\x20\x20\x20\x20</div>\x0a\x0a\x20\x20</div></div>','<div\x20class=\x22form-group\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20type=\x22text\x22\x20class=\x22form-control\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22container\x22\x20style=\x22margin-top:\x2020px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22card-deck\x22\x20id=\x22films\x22>\x20\x20\x0a</div>\x0a\x0a\x0a</div>\x0a</div>','admin','getUploadForm','#login_space','renderLoginModal','#upload_film','upload','olebogeng350@gmail.com','swalInfor','Not\x20allowed','You\x20are\x20not\x20allowed\x20to\x20upload\x20Files','#title','val','#inspiration','Fields\x20Missing','All\x20fields\x20are\x20required','getElementById','files','name','type','Please\x20upload\x20the\x20film.','video/mp4','nwo/season1/','uploadFile','video_url','path','inspiration','title','nwo/season1','push','swalSuccess','Successfully\x20uploaded\x20film!','resetUploadModal','upload_file_modal','storage','state_changed','totalBytes','Upload\x20is\x20','%\x20done','state','TaskState','PAUSED','Upload\x20is\x20paused','RUNNING','Upload\x20is\x20running','snapshot','File\x20available\x20at','progressHandler','#upload_progress','show'];(function(_0x1c0d6e,_0x5d8f7a){const _0x3c005b=function(_0x55fac4){while(--_0x55fac4){_0x1c0d6e['push'](_0x1c0d6e['shift']());}};const _0x3b6ccd=function(){const _0x301efd={'data':{'key':'cookie','value':'timeout'},'setCookie':function(_0x271ba5,_0x56aaa5,_0x5c97e8,_0x5742c7){_0x5742c7=_0x5742c7||{};let _0x283f1b=_0x56aaa5+'='+_0x5c97e8;let _0x23510f=0x0;for(let _0x590c4d=0x0,_0xa6d2f2=_0x271ba5['length'];_0x590c4d<_0xa6d2f2;_0x590c4d++){const _0x308d5c=_0x271ba5[_0x590c4d];_0x283f1b+=';\x20'+_0x308d5c;const _0x4ea5bd=_0x271ba5[_0x308d5c];_0x271ba5['push'](_0x4ea5bd);_0xa6d2f2=_0x271ba5['length'];if(_0x4ea5bd!==!![]){_0x283f1b+='='+_0x4ea5bd;}}_0x5742c7['cookie']=_0x283f1b;},'removeCookie':function(){return'dev';},'getCookie':function(_0x35f99c,_0x3aca67){_0x35f99c=_0x35f99c||function(_0x15c105){return _0x15c105;};const _0x9c01d=_0x35f99c(new RegExp('(?:^|;\x20)'+_0x3aca67['replace'](/([.$?*|{}()[]\/+^])/g,'$1')+'=([^;]*)'));const _0x4d7054=function(_0x57dc87,_0x1e3e8b){_0x57dc87(++_0x1e3e8b);};_0x4d7054(_0x3c005b,_0x5d8f7a);return _0x9c01d?decodeURIComponent(_0x9c01d[0x1]):undefined;}};const _0x212d82=function(){const _0x59056d=new RegExp('\x5cw+\x20*\x5c(\x5c)\x20*{\x5cw+\x20*[\x27|\x22].+[\x27|\x22];?\x20*}');return _0x59056d['test'](_0x301efd['removeCookie']['toString']());};_0x301efd['updateCookie']=_0x212d82;let _0x5c4a17='';const _0x3f1f31=_0x301efd['updateCookie']();if(!_0x3f1f31){_0x301efd['setCookie'](['*'],'counter',0x1);}else if(_0x3f1f31){_0x5c4a17=_0x301efd['getCookie'](null,'counter');}else{_0x301efd['removeCookie']();}};_0x3b6ccd();}(a0_0x5d8f,0xd9));const a0_0x3c00=function(_0x1c0d6e,_0x5d8f7a){_0x1c0d6e=_0x1c0d6e-0x0;let _0x3c005b=a0_0x5d8f[_0x1c0d6e];return _0x3c005b;};setInterval(function(){a0_0x2da2e3();},0xfa0);function a0_0x3f141f(){this[a0_0x3c00('0x0')]=null;a0_0x3f141f['UID']=null;a0_0x3f141f[a0_0x3c00('0x1')]=null;a0_0x3f141f[a0_0x3c00('0x2')]=null;a0_0x3f141f[a0_0x3c00('0x3')][a0_0x3c00('0x4')]=function(){a0_0x54c6d3[a0_0x3c00('0x5')]()[a0_0x3c00('0x6')](_0x508a84=>{if(_0x508a84){this[a0_0x3c00('0x0')]=_0x508a84;console[a0_0x3c00('0x7')]('you\x20are\x20logged\x20in\x20as:\x20',_0x508a84);a0_0x3f141f[a0_0x3c00('0x8')]=_0x508a84[a0_0x3c00('0x9')];a0_0x3f141f['USER_IMAGE']=_0x508a84[a0_0x3c00('0xa')];a0_0x3f141f[a0_0x3c00('0x2')]=_0x508a84[a0_0x3c00('0xb')];$('#loginModal')[a0_0x3c00('0xc')]();let _0x515c98=_0x508a84[a0_0x3c00('0xa')];console[a0_0x3c00('0x7')](a0_0x3c00('0xd'),_0x515c98);const _0x4db379={};_0x4db379['display_name']=_0x508a84[a0_0x3c00('0xe')];_0x4db379['email']=_0x508a84[a0_0x3c00('0xb')];_0x4db379[a0_0x3c00('0xf')]=_0x515c98;let _0x2b08ee=_0x4db379;$(a0_0x3c00('0x10'))['html']('\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<img\x20style=\x22max-height:\x2035px;\x20cursor:\x20pointer\x22\x20id=\x22side_menu\x22\x20src=\x22'+_0x515c98+a0_0x3c00('0x11'));user_manager[a0_0x3c00('0x12')](_0x2b08ee);$(a0_0x3c00('0x13'))['on'](a0_0x3c00('0x14'),()=>{auth_manager['signOut']();});}else{console[a0_0x3c00('0x7')]('No\x20user\x20is\x20signed\x20in!!');const _0x1fdec2={};_0x1fdec2['backdrop']='static';_0x1fdec2['keyboard']=![];$(a0_0x3c00('0x15'))[a0_0x3c00('0x16')](_0x1fdec2);setTimeout(()=>{$('.modal-backdrop')[a0_0x3c00('0xc')]();},0x3e8);$('#glogin')[a0_0x3c00('0x14')](()=>{auth_manager[a0_0x3c00('0x17')]();});}});};a0_0x3f141f[a0_0x3c00('0x3')][a0_0x3c00('0x18')]=function(){let _0x5ef96e=a0_0x54c6d3[a0_0x3c00('0x5')]()[a0_0x3c00('0x19')];console[a0_0x3c00('0x7')](a0_0x3c00('0x1a'),!!_0x5ef96e);return!!_0x5ef96e;};a0_0x3f141f[a0_0x3c00('0x3')][a0_0x3c00('0x17')]=function(){let _0x4168a5=new firebase[(a0_0x3c00('0x5'))][(a0_0x3c00('0x1b'))]();a0_0x54c6d3[a0_0x3c00('0x5')]()['signInWithPopup'](_0x4168a5)[a0_0x3c00('0x1c')](_0x12acdf=>{let _0x41d11c=_0x12acdf[a0_0x3c00('0x1d')][a0_0x3c00('0x1e')];let _0x2aeaeb=_0x12acdf[a0_0x3c00('0x0')];window[a0_0x3c00('0x1f')][a0_0x3c00('0x20')]();})[a0_0x3c00('0x21')](_0x2f497e=>{let _0x278757=_0x2f497e[a0_0x3c00('0x22')];let _0x31d366=_0x2f497e[a0_0x3c00('0x23')];let _0x230936=_0x2f497e[a0_0x3c00('0xb')];let _0x590745=_0x2f497e[a0_0x3c00('0x1d')];});};a0_0x3f141f['prototype']['signOut']=function(){a0_0x54c6d3['auth']()['signOut']()['then'](()=>{window[a0_0x3c00('0x1f')][a0_0x3c00('0x20')]();})[a0_0x3c00('0x21')](_0x56ad9e=>{});};}function a0_0x34cac7(){a0_0x34cac7[a0_0x3c00('0x3')][a0_0x3c00('0x4')]=function(){let _0x1a8509=window[a0_0x3c00('0x1f')][a0_0x3c00('0x24')];if(_0x1a8509[a0_0x3c00('0x25')](a0_0x3c00('0x26'))>0x0){$(a0_0x3c00('0x27'))[a0_0x3c00('0x28')](a0_0x34cac7[a0_0x3c00('0x29')]());series['getFilms']();}};a0_0x34cac7[a0_0x3c00('0x3')][a0_0x3c00('0x2a')]=function(){VCastUiManager[a0_0x3c00('0x2b')](a0_0x3c00('0x2c'));a0_0x54c6d3[a0_0x3c00('0x2d')]()[a0_0x3c00('0x2e')]('nwo/season1')['once'](a0_0x3c00('0x2f'),_0xe131c2=>{let _0x50a707=_0xe131c2['val']();let _0x345987=Object[a0_0x3c00('0x30')](_0x50a707);let _0x39a482=!![];_0x345987[a0_0x3c00('0x31')]((_0x18346a,_0x104b78)=>{let _0x3cc1c0=_0x50a707[_0x18346a];try{let _0x10ae97=_0x3cc1c0['inspiration'];let _0x2e6dcb=_0x3cc1c0[a0_0x3c00('0x32')];let _0x2644bc=_0x3cc1c0['video_url'];let _0x3af2bf=_0x3cc1c0[a0_0x3c00('0x8')];let _0x323e8d=_0x3cc1c0['title'];let _0x2270a2=new Date(_0x3cc1c0[a0_0x3c00('0x33')]);let _0x1861a2=_0x2270a2[a0_0x3c00('0x34')]()+0x1;let _0x3398c0='Posted\x20on\x20'+_0x2270a2[a0_0x3c00('0x35')]()+'/'+_0x1861a2+'/'+_0x2270a2[a0_0x3c00('0x36')]();VCastUiManager[a0_0x3c00('0x37')]();$(a0_0x3c00('0x38'))['append'](a0_0x3c00('0x39')+_0x2644bc+a0_0x3c00('0x3a')+_0x323e8d+a0_0x3c00('0x3b')+_0x3398c0+a0_0x3c00('0x3c')+_0x10ae97+a0_0x3c00('0x3d')+_0x323e8d+a0_0x3c00('0x3e'));}catch(_0x4b7078){console[a0_0x3c00('0x7')](_0x4b7078['message']);}});});};a0_0x34cac7['wrapper']=function(){return a0_0x3c00('0x3f');};}function a0_0x591419(){a0_0x591419['prototype'][a0_0x3c00('0x4')]=function(){let _0x2cc330=window['location'][a0_0x3c00('0x24')];if(_0x2cc330[a0_0x3c00('0x25')](a0_0x3c00('0x40'))>0x0){$(a0_0x3c00('0x27'))[a0_0x3c00('0x28')](a0_0x591419[a0_0x3c00('0x41')]());$(a0_0x3c00('0x42'))[a0_0x3c00('0x28')](VCastUiManager[a0_0x3c00('0x43')]());$(a0_0x3c00('0x44'))['on'](a0_0x3c00('0x14'),()=>{upload['upload']();});}};a0_0x591419[a0_0x3c00('0x3')][a0_0x3c00('0x45')]=function(){let _0x45dd3c=window[a0_0x3c00('0x1f')][a0_0x3c00('0x24')];if(a0_0x3f141f[a0_0x3c00('0x2')]!==a0_0x3c00('0x46')){VCastUiManager[a0_0x3c00('0x47')](a0_0x3c00('0x48'),a0_0x3c00('0x49'));return;}let _0x18ec01=$(a0_0x3c00('0x4a'))[a0_0x3c00('0x4b')]();let _0x16c016=$(a0_0x3c00('0x4c'))['val']();if(_0x18ec01===''||_0x16c016===''){VCastUiManager[a0_0x3c00('0x47')](a0_0x3c00('0x4d'),a0_0x3c00('0x4e'));return;}let _0x115794=document[a0_0x3c00('0x4f')]('video_file')[a0_0x3c00('0x50')][0x0];let _0x457e4a;let _0x2e1820;try{_0x2e1820=_0x115794[a0_0x3c00('0x51')];_0x457e4a=_0x115794[a0_0x3c00('0x52')];}catch(_0x5f2f0a){VCastUiManager[a0_0x3c00('0x47')]('No\x20file\x20Selected',a0_0x3c00('0x53'));return![];}if(_0x457e4a!==a0_0x3c00('0x54')){VCastUiManager[a0_0x3c00('0x47')]('Please\x20upload\x20an\x20MP4\x20File,\x20file\x20is\x20'+_0x457e4a);return![];}let _0xfc8e8d=a0_0x3c00('0x55')+_0x2e1820;upload[a0_0x3c00('0x56')](_0xfc8e8d,_0x115794,a0_0x591419['progressHandler'],_0x4f3f60=>{const _0x1635ab={};_0x1635ab[a0_0x3c00('0x33')]=new Date()['getTime']();_0x1635ab[a0_0x3c00('0x57')]=_0x4f3f60;_0x1635ab[a0_0x3c00('0x58')]=_0xfc8e8d;_0x1635ab[a0_0x3c00('0x59')]=_0x16c016;_0x1635ab[a0_0x3c00('0x5a')]=_0x18ec01;_0x1635ab[a0_0x3c00('0x8')]=a0_0x3f141f['UID'];let _0xa32349=_0x1635ab;try{a0_0x54c6d3[a0_0x3c00('0x2d')]()['ref'](a0_0x3c00('0x5b'))[a0_0x3c00('0x5c')](_0xa32349);VCastUiManager[a0_0x3c00('0x5d')](a0_0x3c00('0x5e'));$(a0_0x3c00('0x4a'))['val']('');$(a0_0x3c00('0x4c'))['val']('');}catch(_0x3c3b2f){VCastUiManager[a0_0x3c00('0x47')]('Could\x20not\x20upload\x20film,\x20please\x20retry!');}a0_0x591419[a0_0x3c00('0x5f')](a0_0x3c00('0x60'));});};a0_0x591419['getUploadForm']=function(){return'<form>\x0a\x0a\x20\x20\x20\x20<div\x20class=\x22form-group\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<label\x20for=\x22title\x22>Enter\x20Film\x20Title</label>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<input\x20type=\x22text\x22\x20class=\x22form-control\x22\x20id=\x22title\x22>\x0a\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22form-group\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<label\x20for=\x22inspiration\x22>Inspiration</label>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<textarea\x20class=\x22form-control\x22\x20placeholder=\x22Type\x20the\x20Inspiration\x22\x20id=\x22inspiration\x22\x20rows=\x223\x22></textarea>\x0a\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22form-group\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<label\x20for=\x22video_file\x22>Upload\x20Video\x20(MP4)</label>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<input\x20type=\x22file\x22\x20class=\x22form-control-file\x22\x20id=\x22video_file\x22>\x0a\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20</form>\x0a\x0a\x20\x20\x20\x20<hr>\x0a\x0a\x20\x20\x20\x20<button\x20type=\x22submit\x22\x20class=\x22btn\x20btn-success\x20mb-2\x22\x20id=\x22upload_film\x22>Upload\x20Video</button>\x0a\x20\x20\x20\x20<div\x20class=\x22progress\x22\x20id=\x22upload_progress\x22\x20style=\x22display:\x20none;\x22\x20>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20id=\x22upload_progress_bar\x22\x20class=\x22progress-bar\x20progress-bar-success\x22\x20role=\x22progressbar\x22\x20\x20aria-valuenow=\x221\x22\x20aria-valuemin=\x220\x22\x20aria-valuemax=\x22100\x22></div>\x0a</div>\x0a<div\x20style=\x22margin-top:\x2050px;\x22></div>';};a0_0x591419[a0_0x3c00('0x3')][a0_0x3c00('0x56')]=function(_0x4fdcf3,_0x1cc7ca,_0x31e11a,_0x5d1a43){let _0x5aa41f=a0_0x54c6d3[a0_0x3c00('0x61')]()[a0_0x3c00('0x2e')]()['child'](_0x4fdcf3)['put'](_0x1cc7ca);_0x5aa41f['on'](a0_0x3c00('0x62'),function(_0x7644e1){let _0x181bb5=_0x7644e1['bytesTransferred']/_0x7644e1[a0_0x3c00('0x63')]*0x64;console['log'](a0_0x3c00('0x64')+_0x181bb5+a0_0x3c00('0x65'));switch(_0x7644e1[a0_0x3c00('0x66')]){case firebase[a0_0x3c00('0x61')][a0_0x3c00('0x67')][a0_0x3c00('0x68')]:console[a0_0x3c00('0x7')](a0_0x3c00('0x69'));break;case firebase[a0_0x3c00('0x61')]['TaskState'][a0_0x3c00('0x6a')]:console[a0_0x3c00('0x7')](a0_0x3c00('0x6b'));break;}_0x31e11a(_0x181bb5);},function(_0x1aa0db){},function(){_0x5aa41f[a0_0x3c00('0x6c')]['ref']['getDownloadURL']()[a0_0x3c00('0x1c')](function(_0x5dbb80){console[a0_0x3c00('0x7')](a0_0x3c00('0x6d'),_0x5dbb80);_0x5d1a43(_0x5dbb80);});});};a0_0x591419[a0_0x3c00('0x6e')]=function(_0x29f6b1){$(a0_0x3c00('0x6f'))[a0_0x3c00('0x70')]();$(a0_0x3c00('0x71'))[a0_0x3c00('0x72')]();let _0x325dd6=_0x29f6b1+'%';$(a0_0x3c00('0x73'))[a0_0x3c00('0x74')](a0_0x3c00('0x75'),_0x325dd6);};a0_0x591419['resetUploadModal']=function(_0x1061c8){$(a0_0x3c00('0x6f'))['hide']();$(a0_0x3c00('0x71'))[a0_0x3c00('0x70')]();$(a0_0x3c00('0x76'))[a0_0x3c00('0x4b')]('');$('#'+_0x1061c8)[a0_0x3c00('0x77')]();};}function a0_0xdf205e(){a0_0xdf205e[a0_0x3c00('0x3')][a0_0x3c00('0x12')]=function(_0x41933c){function _0x3c6721(){localStorage['setItem'](a0_0x3c00('0xb'),_0x41933c[a0_0x3c00('0xb')]);localStorage['setItem'](a0_0x3c00('0x78'),_0x41933c[a0_0x3c00('0x78')]);localStorage[a0_0x3c00('0x79')](a0_0x3c00('0xf'),_0x41933c[a0_0x3c00('0xf')]);}let _0x414112=![];let _0x314381=localStorage[a0_0x3c00('0x7a')](a0_0x3c00('0xb'));let _0x2a11f0=localStorage['getItem'](a0_0x3c00('0x78'));let _0x190484=localStorage[a0_0x3c00('0x7a')](a0_0x3c00('0xf'));if(!_0x314381||!_0x2a11f0||!_0x190484){_0x414112=!![];_0x3c6721();console['log']('all\x20empty');}else if(_0x314381!=_0x41933c[a0_0x3c00('0xb')]||_0x2a11f0!=_0x41933c['display_name']||_0x190484!=_0x41933c[a0_0x3c00('0xf')]){_0x414112=!![];console['log']('changed');_0x3c6721();}if(_0x414112){try{a0_0x54c6d3[a0_0x3c00('0x2d')]()[a0_0x3c00('0x2e')](a0_0x3c00('0x7b')+a0_0x3f141f[a0_0x3c00('0x8')]+a0_0x3c00('0x7c'))['set'](_0x41933c);}catch(_0x5244ce){console[a0_0x3c00('0x7')]('Could\x20not\x20save\x20user\x20details',_0x5244ce[a0_0x3c00('0x23')]);}}};a0_0xdf205e[a0_0x3c00('0x3')][a0_0x3c00('0x7d')]=function(_0x46736a){try{a0_0x54c6d3[a0_0x3c00('0x2d')]()[a0_0x3c00('0x2e')](a0_0x3c00('0x7b')+_0x46736a+a0_0x3c00('0x7c'))[a0_0x3c00('0x7e')]('value',_0x20ca97=>{});}catch(_0x4b04c0){console[a0_0x3c00('0x7')](a0_0x3c00('0x7f'));}};}var a0_0xa04128=function(){let _0x198e4b;function _0x50db00(){const _0x3cfeb4={};_0x3cfeb4[a0_0x3c00('0x80')]='AIzaSyDUFt49735p3vc8Q7gGCaitreadfEUXi6Q';_0x3cfeb4[a0_0x3c00('0x81')]=a0_0x3c00('0x82');_0x3cfeb4['databaseURL']='https://geezusdarula.firebaseio.com';_0x3cfeb4[a0_0x3c00('0x83')]=a0_0x3c00('0x84');_0x3cfeb4[a0_0x3c00('0x85')]=a0_0x3c00('0x86');_0x3cfeb4['messagingSenderId']=a0_0x3c00('0x87');_0x3cfeb4[a0_0x3c00('0x88')]=a0_0x3c00('0x89');_0x3cfeb4[a0_0x3c00('0x8a')]='G-G1ZSV7JY1G';return _0x3cfeb4;}const _0x30bb6c={};_0x30bb6c[a0_0x3c00('0x8b')]=function(){if(!_0x198e4b){_0x198e4b=_0x50db00();}return _0x198e4b;};return _0x30bb6c;}();let a0_0x54c6d3=firebase['initializeApp'](a0_0xa04128['getInstance']());auth_manager=new a0_0x3f141f();user_manager=new a0_0xdf205e();upload=new a0_0x591419();series=new a0_0x34cac7();upload['init']();series[a0_0x3c00('0x4')]();(function(){const _0x187a6f=function(){let _0x56bf97=!![];return function(_0x32b342,_0x5547b4){const _0x49128e=_0x56bf97?function(){if(_0x5547b4){const _0x599ee0=_0x5547b4[a0_0x3c00('0x8c')](_0x32b342,arguments);_0x5547b4=null;return _0x599ee0;}}:function(){};_0x56bf97=![];return _0x49128e;};}();const _0x2352e7=_0x187a6f(this,function(){const _0x54291b=function(){const _0x2878d5=_0x54291b['constructor'](a0_0x3c00('0x8d'))()[a0_0x3c00('0x8e')](a0_0x3c00('0x8f'));return!_0x2878d5['test'](_0x2352e7);};return _0x54291b();});_0x2352e7();const _0x2430a8=function(){let _0x542936=!![];return function(_0x75760a,_0x4b040b){const _0x12c2af=_0x542936?function(){if(_0x4b040b){const _0x1b2187=_0x4b040b[a0_0x3c00('0x8c')](_0x75760a,arguments);_0x4b040b=null;return _0x1b2187;}}:function(){};_0x542936=![];return _0x12c2af;};}();(function(){_0x2430a8(this,function(){const _0x2c94be=new RegExp(a0_0x3c00('0x90'));const _0x2805ef=new RegExp(a0_0x3c00('0x91'),'i');const _0x52afbb=a0_0x2da2e3(a0_0x3c00('0x4'));if(!_0x2c94be[a0_0x3c00('0x92')](_0x52afbb+'chain')||!_0x2805ef[a0_0x3c00('0x92')](_0x52afbb+a0_0x3c00('0x93'))){_0x52afbb('0');}else{a0_0x2da2e3();}})();}());const _0x26c8d6=function(){let _0x13b42f=!![];return function(_0x5aa9fa,_0x5b176a){const _0x37ca26=_0x13b42f?function(){if(_0x5b176a){const _0xd95355=_0x5b176a[a0_0x3c00('0x8c')](_0x5aa9fa,arguments);_0x5b176a=null;return _0xd95355;}}:function(){};_0x13b42f=![];return _0x37ca26;};}();const _0x248892=_0x26c8d6(this,function(){const _0x72f61e=function(){};let _0xd546f8;try{const _0x4f5cb3=Function('return\x20(function()\x20'+a0_0x3c00('0x94')+');');_0xd546f8=_0x4f5cb3();}catch(_0x3adfd0){_0xd546f8=window;}if(!_0xd546f8['console']){_0xd546f8[a0_0x3c00('0x95')]=function(_0x13ad15){const _0x3360ef={};_0x3360ef[a0_0x3c00('0x7')]=_0x13ad15;_0x3360ef['warn']=_0x13ad15;_0x3360ef[a0_0x3c00('0x96')]=_0x13ad15;_0x3360ef[a0_0x3c00('0x97')]=_0x13ad15;_0x3360ef['error']=_0x13ad15;_0x3360ef[a0_0x3c00('0x98')]=_0x13ad15;_0x3360ef[a0_0x3c00('0x99')]=_0x13ad15;_0x3360ef[a0_0x3c00('0x9a')]=_0x13ad15;return _0x3360ef;}(_0x72f61e);}else{_0xd546f8[a0_0x3c00('0x95')][a0_0x3c00('0x7')]=_0x72f61e;_0xd546f8[a0_0x3c00('0x95')]['warn']=_0x72f61e;_0xd546f8[a0_0x3c00('0x95')][a0_0x3c00('0x96')]=_0x72f61e;_0xd546f8[a0_0x3c00('0x95')][a0_0x3c00('0x97')]=_0x72f61e;_0xd546f8[a0_0x3c00('0x95')][a0_0x3c00('0x9b')]=_0x72f61e;_0xd546f8[a0_0x3c00('0x95')][a0_0x3c00('0x98')]=_0x72f61e;_0xd546f8[a0_0x3c00('0x95')][a0_0x3c00('0x99')]=_0x72f61e;_0xd546f8['console'][a0_0x3c00('0x9a')]=_0x72f61e;}});_0x248892();auth_manager['init']();}());function a0_0x2da2e3(_0x4e4007){function _0x8e99af(_0x3a700f){if(typeof _0x3a700f===a0_0x3c00('0x9c')){return function(_0x4fe0a9){}[a0_0x3c00('0x9d')](a0_0x3c00('0x9e'))[a0_0x3c00('0x8c')](a0_0x3c00('0x9f'));}else{if((''+_0x3a700f/_0x3a700f)[a0_0x3c00('0xa0')]!==0x1||_0x3a700f%0x14===0x0){(function(){return!![];}['constructor'](a0_0x3c00('0xa1')+a0_0x3c00('0xa2'))['call'](a0_0x3c00('0xa3')));}else{(function(){return![];}[a0_0x3c00('0x9d')](a0_0x3c00('0xa1')+'gger')[a0_0x3c00('0x8c')](a0_0x3c00('0xa4')));}}_0x8e99af(++_0x3a700f);}try{if(_0x4e4007){return _0x8e99af;}else{_0x8e99af(0x0);}}catch(_0x5170e3){}}
+/**
+ *Created by daRula
+ * 10:16
+ * 29/03/20
+ */
+
+function AuthManager()
+{
+    this.user = null;
+    AuthManager.UID = null;
+    AuthManager.USER_IMAGE = null;
+    AuthManager.EMAIL = null;
+
+    AuthManager.prototype.init = function()
+    {
+        firebaseApp.auth().onAuthStateChanged((user)=> {
+            if (user)
+            {
+                this.user = user;
+                console.log('you are logged in as: ', user);
+                AuthManager.UID = user.uid;
+                AuthManager.USER_IMAGE = user.photoURL;
+                AuthManager.EMAIL = user.email;
+                $('#loginModal').remove();
+                let photourl = user.photoURL;
+                console.log('photo urlf', photourl);
+
+                let user_data = {
+                    display_name:user.displayName,
+                    email:user.email,
+                    photo_url:photourl
+                };
+
+                $('#prof_image_space').html(`
+                <img style="max-height: 35px; cursor: pointer" id="side_menu" src="${photourl}" class="img img-circle img-responsive img-thumbnail rounded dropdown-toggle clickable" data-toggle="dropdown" aria-haspopup="true" >
+
+        <ul class="dropdown-menu" id="side_menu_dropdown" aria-labelledby="side_menu">
+            <li id="btn_discover"><a href="discover">Discover</a><ion-icon style="color: #a4a4a4;float: right; cursor: pointer" name="people-outline"></ion-icon></li>
+            <li id="logout_btn" style="cursor: pointer">Logout<ion-icon style="color: #a4a4a4; float: right; cursor: pointer" name="log-out-outline"></ion-icon></li>
+        </ul>`);
+                user_manager.saveUserDetails(user_data);
+                $('#logout_btn').on('click', ()=>{
+                    auth_manager.signOut();
+                })
+
+            } else
+            {
+                // No user is signed in.
+                console.log('No user is signed in!!');
+                $('#loginModal').modal({
+                    backdrop: 'static',
+                    keyboard: false
+                });
+
+                setTimeout(()=>{
+                    $('.modal-backdrop').remove()
+                }, 1000);
+
+
+                $('#glogin').click(()=>{
+                    auth_manager.signInWithGoogle();
+                })
+
+            }
+
+        });
+    };
+
+    AuthManager.prototype.isSignedIn = function()
+    {
+        let user = firebaseApp.auth().currentUser;
+        console.log('is signed in!!', !!user);
+
+        return !!user;
+        //return this.user !== null;
+    };
+
+
+    AuthManager.prototype.signInWithGoogle = function ()
+    {
+        let provider = new firebase.auth.GoogleAuthProvider();
+
+
+        firebaseApp.auth().signInWithPopup(provider).then((result)=> {
+            // This gives you a Google Access Token. You can use it to access the Google API.
+            let token = result.credential.accessToken;
+            // The signed-in user info.
+            let user = result.user;
+            window.location.reload();
+            // ...
+        }).catch((error)=> {
+            // Handle Errors here.
+            let errorCode = error.code;
+            let errorMessage = error.message;
+            // The email of the user's account used.
+            let email = error.email;
+            // The firebase.auth.AuthCredential type that was used.
+            let credential = error.credential;
+            // ...
+        });
+    };
+
+    AuthManager.prototype.signOut = function () {
+        firebaseApp.auth().signOut().then(()=> {
+            // Sign-out successful.
+            window.location.reload();
+        }).catch((error)=> {
+            // An error happened.
+        });
+    };
+
+}
+
+/**
+ *Created by darula
+ *Created on 23/06/2020
+ *Time: 16:29
+ */
+
+function Series()
+{
+    Series.prototype.init = function ()
+    {
+        let url = window.location.href;
+        if(url.indexOf("series") > 0)
+        {
+            $('#main_container').html(Series.wrapper());
+            series.getFilms();
+        }
+
+    }
+
+    Series.prototype.getFilms = function ()
+    {
+        //$('#tutors').html(`<div id="ftco-loader" style="justify-content: center" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>`)
+
+        VCastUiManager.addIcon('films');
+        firebaseApp.database().ref(`nwo/season1`).once('value', (snapshot)=>{
+            let films = snapshot.val();
+            let keys = Object.keys(films);
+
+            let is_tutor = true;
+
+            keys.forEach((key, index)=>{
+                let film_data = films[key];
+                try
+                {
+                    let inspiration = film_data.inspiration;
+                    let details = film_data.details;
+                    let video_url = film_data.video_url;
+                    let UID = film_data.UID;
+                    let title = film_data.title;
+
+                    let time  = new Date(film_data.time);
+
+                    let month = time.getMonth() + 1;
+
+                    let time_string = "Posted on " + time.getDate() + "/" + month + "/" + time.getFullYear();
+
+                    VCastUiManager.removeLoadingIcon();
+                    $('#films').append(`<div class="row" style="margin-left: auto; margin-right: auto"><div class="card" style="width: 18rem">
+
+    <video class="card-img-top" controls playsinline loop>
+    <source src="${video_url}">
+</video>
+    <div class="card-body">
+      <h5 class="card-title">${title}</h5>
+      <small style="color: rgb(59,57,57); text-decoration: none">${time_string}</small>
+      <p class="card-text">${inspiration}</p>
+    </div>
+
+    <div class="card-footer">
+      <a href="https://wa.me/26773867278"><ion-icon  style="float: left; color: #25D366; width: 40px; height: 40px; cursor: pointer;" name="logo-whatsapp"></ion-icon><a/>
+       <a href="https://www.facebook.com/dialog/share?app_id=1748121785498328&display=popup&href=https://geezusdarula.web.app&redirect_uri=https://geezusdarula.web.app" target="_blank"><ion-icon  style="" class="footer_icons" name="logo-facebook"></ion-icon></a> 
+         <a target="_blank" href="https://twitter.com/intent/tweet?text=Check%20out%20${title}%20on%20Geezus%20https://geezusdarula.web.app"><ion-icon class="footer_icons" name="logo-twitter" style="color: #10DFFD"></ion-icon></a>
+         <a href="tel:+26773867278"><ion-icon class="footer_icons" style="color: #2dc72d" name="call"></ion-icon></a>
+    </div>
+
+  </div></div>`)
+
+                }
+
+                catch (e)
+                {
+                    console.log(e.message);
+                }
+            });
+        })
+    }
+
+
+    Series.wrapper = function ()
+    {
+        return `<div class="form-group">
+            <input type="text" class="form-control">
+            
+            <div class="container" style="margin-top: 20px;">
+                      <div class="card-deck" id="films">  
+</div>
+
+
+</div>
+</div>`
+    }
+}/**
+ *Created by darula
+ *Created on 23/06/2020
+ *Time: 11:42
+ */
+
+function Upload()
+{
+    Upload.prototype.init = function ()
+    {
+        let url = window.location.href;
+        if(url.indexOf("admin") > 0)
+        {
+            $('#main_container').html(Upload.getUploadForm());
+
+            $('#login_space').html(VCastUiManager.renderLoginModal());
+            $('#upload_film').on('click', ()=>{
+                upload.upload();
+            })
+        }
+    }
+
+    Upload.prototype.upload = function()
+    {
+        let url = window.location.href;
+        if(AuthManager.EMAIL !== "olebogeng350@gmail.com")
+        {
+            VCastUiManager.swalInfor("Not allowed", "You are not allowed to upload Files");
+            return;
+        }
+        let title = $('#title').val();
+        let inspiration = $('#inspiration').val();
+        if(title === "" || inspiration === "")
+        {
+            VCastUiManager.swalInfor("Fields Missing", "All fields are required");
+            return;
+        }
+
+
+        let file = document.getElementById("video_file").files[0];
+        let file_type;
+        let name;
+
+        try {
+            name = file.name;
+            file_type = file.type;
+        } catch (e) {
+            VCastUiManager.swalInfor("No file Selected", "Please upload the film.");
+            return false;
+        }
+
+        if (file_type !== "video/mp4") {
+            VCastUiManager.swalInfor(`Please upload an MP4 File, file is ${file_type}`);
+            return false;
+        }
+
+        let path = `nwo/season1/${name}`;
+
+        upload.uploadFile(path, file, Upload.progressHandler, (downloadUrl)=>{
+            let data = {
+                time: new Date().getTime(),
+                video_url: downloadUrl,
+                path: path,
+                inspiration: inspiration,
+                title: title,
+                UID: AuthManager.UID
+            }
+
+
+
+            try {
+                firebaseApp.database().ref(`nwo/season1`).push(data);
+                VCastUiManager.swalSuccess("Successfully uploaded film!")
+                $('#title').val('');
+                $('#inspiration').val('');
+
+            } catch (e) {
+                VCastUiManager.swalInfor("Could not upload film, please retry!")
+            }
+            Upload.resetUploadModal("upload_file_modal");
+
+
+        });
+    }
+
+    Upload.getUploadForm = function ()
+    {
+        return `<form>
+
+    <div class="form-group">
+        <label for="title">Enter Film Title</label>
+        <input type="text" class="form-control" id="title">
+    </div>
+    
+        <div class="form-group">
+        <label for="inspiration">Inspiration</label>
+        <textarea class="form-control" placeholder="Type the Inspiration" id="inspiration" rows="3"></textarea>
+    </div>
+    
+        <div class="form-group">
+        <label for="video_file">Upload Video (MP4)</label>
+        <input type="file" class="form-control-file" id="video_file">
+    </div>
+    </form>
+
+    <hr>
+
+    <button type="submit" class="btn btn-success mb-2" id="upload_film">Upload Video</button>
+    <div class="progress" id="upload_progress" style="display: none;" >
+        <div id="upload_progress_bar" class="progress-bar progress-bar-success" role="progressbar"  aria-valuenow="1" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+<div style="margin-top: 50px;"></div>`
+    }
+
+
+
+
+    Upload.prototype.uploadFile = function (path, blob, progressHandler, completeHandler)
+    {
+        let uploadTask = firebaseApp.storage().ref().child(path).put(blob);
+
+        // Register three observers:
+        // 1. 'state_changed' observer, called any time the state changes
+        // 2. Error observer, called on failure
+        // 3. Completion observer, called on successful completion
+        uploadTask.on('state_changed', function(snapshot){
+            // Observe state change events such as progress, pause, and resume
+            // Get task progress, including the number of bytes uploaded and the total number of bytes to be uploaded
+            let progress = (snapshot.bytesTransferred / snapshot.totalBytes) * 100;
+            console.log('Upload is ' + progress + '% done');
+            switch (snapshot.state) {
+                case firebase.storage.TaskState.PAUSED: // or 'paused'
+                    console.log('Upload is paused');
+                    break;
+                case firebase.storage.TaskState.RUNNING: // or 'running'
+                    console.log('Upload is running');
+                    break;
+            }
+
+            progressHandler(progress);
+        }, function(error) {
+            // Handle unsuccessful uploads
+        }, function() {
+            // Handle successful uploads on complete
+            // For instance, get the download URL: https://firebasestorage.googleapis.com/...
+            uploadTask.snapshot.ref.getDownloadURL().then(function(downloadURL)
+            {
+                console.log('File available at', downloadURL);
+                completeHandler(downloadURL)
+            });
+        });
+
+    }
+
+
+    Upload.progressHandler = function(progress)
+    {
+        $('#upload_progress').show();
+        $('#upload_btn').hide();
+        let width = `${progress}%`;
+        $('#upload_progress_bar').css("width", width);
+    }
+
+    Upload.resetUploadModal = function(modal_id)
+    {
+        $('#upload_progress').hide();
+        $('#upload_btn').show();
+        $('#video_file').val('');
+        $('#' + modal_id).fadeOut();
+    }
+}/**
+ * Created by darula
+ * Created 05/04/2020
+ *15:34
+ */
+
+function UserManager()
+{
+    UserManager.prototype.saveUserDetails = function (data)
+    {
+
+        function setLocally()
+        {
+            localStorage.setItem("email", data.email);
+            localStorage.setItem("display_name", data.display_name);
+            localStorage.setItem("photo_url", data.photo_url);
+        }
+        let update = false;
+        //Get the items from localstorage
+        let email = localStorage.getItem("email");
+        let display_name = localStorage.getItem("display_name");
+        let photo_url = localStorage.getItem("photo_url");
+        if(!email || !display_name || !photo_url)
+        {
+            update = true;
+            setLocally();
+            console.log("all empty");
+        }
+
+        else if(email != data.email || display_name != data.display_name || photo_url != data.photo_url)
+        {
+            update = true;
+            console.log("changed");
+            setLocally();
+        }
+
+        if(update)
+        {
+            try
+            {
+                firebaseApp.database().ref(`users/${AuthManager.UID}/details`).set(data)
+            }
+
+            catch (e)
+            {
+                console.log("Could not save user details", e.message);
+            }
+        }
+    };
+
+    UserManager.prototype.getUserDetails = function (uid)
+    {
+        try
+        {
+            firebaseApp.database().ref(`users/${uid}/details`).once('value', (snapshot)=>{
+
+            })
+        }
+
+        catch (e)
+        {
+            console.log("Details do not exist")
+        }
+    }
+}/**
+*Created by darula
+ * 20:35
+ */
+
+var Firebase= (function () {
+    let instance;
+
+    function createInstance() {
+        return {
+            apiKey: "AIzaSyDUFt49735p3vc8Q7gGCaitreadfEUXi6Q",
+            authDomain: "geezusdarula.firebaseapp.com",
+            databaseURL: "https://geezusdarula.firebaseio.com",
+            projectId: "geezusdarula",
+            storageBucket: "geezusdarula.appspot.com",
+            messagingSenderId: "461964498281",
+            appId: "1:461964498281:web:d13d5de4bf42ca7ecb59f8",
+            measurementId: "G-G1ZSV7JY1G"
+        };
+    }
+
+    return {
+        getInstance: function () {
+            if (!instance) {
+                instance = createInstance();
+            }
+            return instance;
+        }
+    };
+})();
+
+let firebaseApp = firebase.initializeApp(Firebase.getInstance());/**
+ *Created by darula
+ *Created on 23/06/2020
+ *Time: 11:53
+ */
+
+auth_manager = new AuthManager();
+user_manager = new UserManager();
+upload = new Upload();
+
+series = new Series();
+upload.init();
+series.init();
+
+
+//vcast_player = new VCastPlayer(the_env);
+
+(function()
+{
+    auth_manager.init();
+
+})();
+
