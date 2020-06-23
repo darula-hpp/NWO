@@ -9,6 +9,7 @@ function AuthManager()
     this.user = null;
     AuthManager.UID = null;
     AuthManager.USER_IMAGE = null;
+    AuthManager.EMAIL = null;
 
     AuthManager.prototype.init =  function()
     {
@@ -19,6 +20,7 @@ function AuthManager()
                 console.log('you are logged in as: ', user);
                 AuthManager.UID = user.uid;
                 AuthManager.USER_IMAGE = user.photoURL;
+                AuthManager.EMAIL = user.email;
                 $('#loginModal').remove();
                 let photourl = user.photoURL;
                 console.log('photo urlf', photourl);

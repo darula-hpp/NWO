@@ -9,6 +9,7 @@ function AuthManager()
     this.user = null;
     AuthManager.UID = null;
     AuthManager.USER_IMAGE = null;
+    AuthManager.EMAIL = null;
 
     AuthManager.prototype.init =  function()
     {
@@ -19,6 +20,7 @@ function AuthManager()
                 console.log('you are logged in as: ', user);
                 AuthManager.UID = user.uid;
                 AuthManager.USER_IMAGE = user.photoURL;
+                AuthManager.EMAIL = user.email;
                 $('#loginModal').remove();
                 let photourl = user.photoURL;
                 console.log('photo urlf', photourl);
@@ -119,8 +121,18 @@ function Upload()
 {
     Upload.prototype.init = function ()
     {
-        $('#main_container').html(`Hello World`);
+        alert(AuthManager.EMAIL)
+        if(AuthManager.EMAIL === "olebogeng350@gmail.com")
+        {
+            $('#main_container').html(Upload.getUploadForm());
+        }
+
         $('#login_space').html(VCastUiManager.renderLoginModal());
+    }
+
+    Upload.getUploadForm = function ()
+    {
+        return `<h1>Hello World</h1>`
     }
 }/**
 *Created by darula
@@ -132,14 +144,14 @@ var Firebase= (function () {
 
     function createInstance() {
         return {
-            apiKey: "AIzaSyCaGfvc08Z3ILPFwMB09phkF_dVgBmq12g",
-            authDomain: "vcast-1c14c.firebaseapp.com",
-            databaseURL: "https://vcast-1c14c.firebaseio.com",
-            projectId: "vcast-1c14c",
-            storageBucket: "vcast-1c14c.appspot.com",
-            messagingSenderId: "167097156264",
-            appId: "1:167097156264:web:8b64aca0fbb33778b1f89d",
-            measurementId: "G-33L81ZTP7V"
+            apiKey: "AIzaSyDUFt49735p3vc8Q7gGCaitreadfEUXi6Q",
+            authDomain: "geezusdarula.firebaseapp.com",
+            databaseURL: "https://geezusdarula.firebaseio.com",
+            projectId: "geezusdarula",
+            storageBucket: "geezusdarula.appspot.com",
+            messagingSenderId: "461964498281",
+            appId: "1:461964498281:web:d13d5de4bf42ca7ecb59f8",
+            measurementId: "G-G1ZSV7JY1G"
         };
     }
 
@@ -161,3 +173,17 @@ let firebaseApp = firebase.initializeApp(Firebase.getInstance());/**
 
 auth_manager = new AuthManager();
 upload = new Upload();
+
+
+
+
+(function()
+{
+    auth_manager.init();
+
+    if(window.location.href.indexOf("admin") > 0)
+    {
+        upload.init();
+    }
+
+})();

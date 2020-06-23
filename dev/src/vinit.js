@@ -5,4 +5,19 @@
  */
 
 auth_manager = new AuthManager();
+user_manager = new UserManager();
 upload = new Upload();
+
+
+
+
+(function()
+{
+    auth_manager.init();
+
+    if(window.location.href.indexOf("admin") > 0)
+    {
+        upload.init();
+    }
+
+})();

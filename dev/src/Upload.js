@@ -8,7 +8,17 @@ function Upload()
 {
     Upload.prototype.init = function ()
     {
-        $('#main_container').html(`Hello World`);
+        alert(AuthManager.EMAIL)
+        if(AuthManager.EMAIL === "olebogeng350@gmail.com")
+        {
+            $('#main_container').html(Upload.getUploadForm());
+        }
+
         $('#login_space').html(VCastUiManager.renderLoginModal());
+    }
+
+    Upload.getUploadForm = function ()
+    {
+        return `<h1>Hello World</h1>`
     }
 }
