@@ -1,7 +1,7 @@
 {
   "hosting": {
     "public": "public",
-    "predeploy": "cd /home/darula/dev/geezusdarula/dev && ./obfuscate",
+    "predeploy": "cd /home/darula/dev/geezuzdarula/dev && ./obfuscate",
     "ignore": [
       "firebase.json",
       "**/.*",
