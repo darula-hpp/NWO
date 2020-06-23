@@ -24,10 +24,6 @@ function AuthManager()
                 $('#loginModal').remove();
                 let photourl = user.photoURL;
                 console.log('photo urlf', photourl);
-                if(AuthManager.EMAIL === "olebogeng350@gmail.com")
-                {
-                    upload.init();
-                }
 
                 let user_data = {
                     display_name:user.displayName,

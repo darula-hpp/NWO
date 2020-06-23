@@ -7,5 +7,17 @@
 auth_manager = new AuthManager();
 user_manager = new UserManager();
 upload = new Upload();
-auth_manager.init();
+
+series = new Series();
+upload.init();
+series.init();
+
+
+//vcast_player = new VCastPlayer(the_env);
+
+(function()
+{
+    auth_manager.init();
+
+})();
 

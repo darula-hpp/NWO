@@ -8,7 +8,13 @@ function Series()
 {
     Series.prototype.init = function ()
     {
-        $('#main_container').html(Series.wrapper());
+        let url = window.location.href;
+        if(url.indexOf("series") > 0)
+        {
+            $('#main_container').html(Series.wrapper());
+            series.getFilms();
+        }
+
     }
 
     Series.prototype.getFilms = function ()
@@ -36,20 +42,17 @@ function Series()
 
                     let month = time.getMonth() + 1;
 
-                    let time_string = "Posted on " + time.getDay() + "/" + month + "/" + time.getFullYear();
+                    let time_string = "Posted on " + time.getDate() + "/" + month + "/" + time.getFullYear();
 
                     VCastUiManager.removeLoadingIcon();
                     $('#films').append(`<div class="row" style="margin-left: auto; margin-right: auto"><div class="card" style="width: 18rem">
 
-<a href="series">
-    <video class="card-img-top" controls src="${video_url}">
+    <video class="card-img-top" controls playsinline src="${video_url}"></video>
     <div class="card-body">
       <h5 class="card-title">${title}</h5>
-      <small style="color: rgb(59,57,57);; text-decoration: none">${time_string}</small>
+      <small style="color: rgb(59,57,57); text-decoration: none">${time_string}</small>
       <p class="card-text">${inspiration}</p>
     </div>
-
-</a>
 
     <div class="card-footer">
       <a href="https://wa.me/26773867278"><ion-icon  style="float: left; color: #25D366; width: 40px; height: 40px; cursor: pointer;" name="logo-whatsapp"></ion-icon><a/>

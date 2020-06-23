@@ -8,19 +8,26 @@ function Upload()
 {
     Upload.prototype.init = function ()
     {
-        if(AuthManager.EMAIL === "olebogeng350@gmail.com")
+        let url = window.location.href;
+        if(url.indexOf("admin") > 0)
         {
             $('#main_container').html(Upload.getUploadForm());
-        }
 
-        $('#login_space').html(VCastUiManager.renderLoginModal());
-        $('#upload_film').on('click', ()=>{
-            upload.upload();
-        })
+            $('#login_space').html(VCastUiManager.renderLoginModal());
+            $('#upload_film').on('click', ()=>{
+                upload.upload();
+            })
+        }
     }
 
     Upload.prototype.upload = function()
     {
+        let url = window.location.href;
+        if(AuthManager.EMAIL !== "olebogeng350@gmail.com")
+        {
+            VCastUiManager.swalInfor("Not allowed", "You are not allowed to upload Files");
+            return;
+        }
         let title = $('#title').val();
         let inspiration = $('#inspiration').val();
         if(title === "" || inspiration === "")
