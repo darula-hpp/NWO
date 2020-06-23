@@ -2,11 +2,76 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>The New World Order Series - A preparation for the 8IR</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta property="og:title"         content="The New Testament Series" />
+    <meta property="og:description"   content="A preparation for the 8IR" />
+    <meta property="og:url"           content="https://geezusdarula.web.app"/>
+    <meta property="og:type"          content="website" />
+    <meta property="og:image"          content="https://geezusdarula.web.app/images/logo.png" />
+    <!--<script src="libs/thirdparty/jquery-3.1.0.min.js"></script>-->
+    <script src="https://www.gstatic.com/firebasejs/7.12.0/firebase-app.js"></script>
+    <script src="twadye/VCastUiManager.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+         https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.12.0/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.12.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.12.0/firebase-storage.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="static/css/style.css">
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">-->
+    <!-- Latest compiled and minified JavaScript -->
+    <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>-->
+    <title>The New World Order - A preparation for the 8IR Series</title>
+
+    <link rel="apple-touch-icon" sizes="57x57" href="static/assets/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="static/assets/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="static/assets/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="static/assets/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="static/assets/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="static/assets/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="static/assets/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="static/assets/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="static/assets/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="static/assets/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="static/assets/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="static/assets/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="static/assets/favicon-16x16.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="static/assets/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
 </head>
 <body>
-<div class="container">
+<section id="mobile_nav" style="position: absolute;top: 0;height: 40px; width:100%;z-index: 1;">
+    <div style="top:0;margin-left: 0;margin-right: 0; width: 100%" id="main_nav_cust">
+        <a href="cast.html"><img src="static/images/logo_transparent3.png" style="max-height: 40px;"></a>
+        <div style="position: absolute; margin-left: auto; margin-right: auto; left: 40%; top: 5px;" id="hours_status"></div>
 
+
+        <a style="top: 5px; float: right; right: 5px; margin-right: 10px;"  id="whatsapp_share" href="whatsapp://send?text=Watch the New Testament Series on https://geezusdarula.web.app" data-action="share/whatsapp/share"><ion-icon name="logo-whatsapp" style="color: #25D366; background-color: #fff; font-size: 32px;"></ion-icon></a>
+
+        <div data-step="4" data-intro="Share your session here!" style="top: 10px; right: 5px; margin-right: 20px; float: right" id="prof_image_space"></div>
+    </div>
+</section>
+
+<div id="login_space"></div>
+<div class="container" id="main_container" style="margin-top: 70px;">
+    <!-- loader -->
+    <!--<div id="ftco-loader" style="justify-content: center" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>-->
 </div>
+
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="libs/thirdparty/intro.js"></script>
+<script src="twadye/kak.js"></script>
+
 </body>
 </html>

@@ -1,1 +1,383 @@
-const a0_0x5ce5=['html','\x22\x20class=\x22img\x20img-circle\x20img-responsive\x20img-thumbnail\x20rounded\x20dropdown-toggle\x20clickable\x22\x20data-toggle=\x22dropdown\x22\x20aria-haspopup=\x22true\x22\x20>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20<ul\x20class=\x22dropdown-menu\x22\x20id=\x22side_menu_dropdown\x22\x20aria-labelledby=\x22side_menu\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<li\x20id=\x22btn_discover\x22><a\x20href=\x22discover\x22>Discover</a><ion-icon\x20style=\x22color:\x20#a4a4a4;float:\x20right;\x20cursor:\x20pointer\x22\x20name=\x22people-outline\x22></ion-icon></li>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<li\x20id=\x22logout_btn\x22\x20style=\x22cursor:\x20pointer\x22>Logout<ion-icon\x20style=\x22color:\x20#a4a4a4;\x20float:\x20right;\x20cursor:\x20pointer\x22\x20name=\x22log-out-outline\x22></ion-icon></li>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</ul>','#logout_btn','signOut','No\x20user\x20is\x20signed\x20in!!','static','keyboard','.modal-backdrop','#glogin','click','signInWithGoogle','isSignedIn','currentUser','is\x20signed\x20in!!','GoogleAuthProvider','then','accessToken','location','catch','code','message','reload','#main_container','getUploadForm','#login_space','renderLoginModal','saveUserDetails','setItem','display_name','photo_url','getItem','changed','database','/details','set','Could\x20not\x20save\x20user\x20details','getUserDetails','ref','users/','once','value','apply','constructor','return\x20/\x22\x20+\x20this\x20+\x20\x22/','compile','^([^\x20]+(\x20+[^\x20]+)+)+[^\x20]}','test','function\x20*\x5c(\x20*\x5c)','\x5c+\x5c+\x20*(?:[a-zA-Z_$][0-9a-zA-Z_$]*)','chain','return\x20(function()\x20','{}.constructor(\x22return\x20this\x22)(\x20)','console','warn','info','error','exception','trace','debug','table','apiKey','authDomain','geezusdarula.firebaseapp.com','databaseURL','projectId','geezusdarula','messagingSenderId','461964498281','1:461964498281:web:d13d5de4bf42ca7ecb59f8','measurementId','G-G1ZSV7JY1G','initializeApp','getInstance','string','length','debu','gger','call','action','stateObject','user','USER_IMAGE','prototype','init','auth','onAuthStateChanged','log','you\x20are\x20logged\x20in\x20as:\x20','UID','uid','photoURL','#loginModal','remove','photo\x20urlf','EMAIL','olebogeng350@gmail.com','displayName','email','#prof_image_space'];(function(_0x42099f,_0x5ce569){const _0x5c4552=function(_0x416487){while(--_0x416487){_0x42099f['push'](_0x42099f['shift']());}};const _0x369ea4=function(){const _0x2d15bb={'data':{'key':'cookie','value':'timeout'},'setCookie':function(_0x1e281a,_0xe9bf7,_0x5b22ef,_0x147a0c){_0x147a0c=_0x147a0c||{};let _0x41bd0b=_0xe9bf7+'='+_0x5b22ef;let _0x148b1d=0x0;for(let _0x5a90d0=0x0,_0x120f86=_0x1e281a['length'];_0x5a90d0<_0x120f86;_0x5a90d0++){const _0x4257f9=_0x1e281a[_0x5a90d0];_0x41bd0b+=';\x20'+_0x4257f9;const _0x555a95=_0x1e281a[_0x4257f9];_0x1e281a['push'](_0x555a95);_0x120f86=_0x1e281a['length'];if(_0x555a95!==!![]){_0x41bd0b+='='+_0x555a95;}}_0x147a0c['cookie']=_0x41bd0b;},'removeCookie':function(){return'dev';},'getCookie':function(_0xe5fbe6,_0x23adeb){_0xe5fbe6=_0xe5fbe6||function(_0x3f3bc6){return _0x3f3bc6;};const _0xd1c0b0=_0xe5fbe6(new RegExp('(?:^|;\x20)'+_0x23adeb['replace'](/([.$?*|{}()[]\/+^])/g,'$1')+'=([^;]*)'));const _0x25e8a1=function(_0x363af9,_0x81e4d9){_0x363af9(++_0x81e4d9);};_0x25e8a1(_0x5c4552,_0x5ce569);return _0xd1c0b0?decodeURIComponent(_0xd1c0b0[0x1]):undefined;}};const _0x120a9e=function(){const _0x35d8da=new RegExp('\x5cw+\x20*\x5c(\x5c)\x20*{\x5cw+\x20*[\x27|\x22].+[\x27|\x22];?\x20*}');return _0x35d8da['test'](_0x2d15bb['removeCookie']['toString']());};_0x2d15bb['updateCookie']=_0x120a9e;let _0x374775='';const _0x3e978b=_0x2d15bb['updateCookie']();if(!_0x3e978b){_0x2d15bb['setCookie'](['*'],'counter',0x1);}else if(_0x3e978b){_0x374775=_0x2d15bb['getCookie'](null,'counter');}else{_0x2d15bb['removeCookie']();}};_0x369ea4();}(a0_0x5ce5,0x179));const a0_0x5c45=function(_0x42099f,_0x5ce569){_0x42099f=_0x42099f-0x0;let _0x5c4552=a0_0x5ce5[_0x42099f];return _0x5c4552;};function a0_0x59685e(){this[a0_0x5c45('0x0')]=null;a0_0x59685e['UID']=null;a0_0x59685e[a0_0x5c45('0x1')]=null;a0_0x59685e['EMAIL']=null;a0_0x59685e[a0_0x5c45('0x2')][a0_0x5c45('0x3')]=function(){a0_0x12e79c[a0_0x5c45('0x4')]()[a0_0x5c45('0x5')](_0x529dbe=>{if(_0x529dbe){this[a0_0x5c45('0x0')]=_0x529dbe;console[a0_0x5c45('0x6')](a0_0x5c45('0x7'),_0x529dbe);a0_0x59685e[a0_0x5c45('0x8')]=_0x529dbe[a0_0x5c45('0x9')];a0_0x59685e[a0_0x5c45('0x1')]=_0x529dbe[a0_0x5c45('0xa')];a0_0x59685e['EMAIL']=_0x529dbe['email'];$(a0_0x5c45('0xb'))[a0_0x5c45('0xc')]();let _0x297fee=_0x529dbe[a0_0x5c45('0xa')];console[a0_0x5c45('0x6')](a0_0x5c45('0xd'),_0x297fee);if(a0_0x59685e[a0_0x5c45('0xe')]===a0_0x5c45('0xf')){upload[a0_0x5c45('0x3')]();}const _0x32128c={};_0x32128c['display_name']=_0x529dbe[a0_0x5c45('0x10')];_0x32128c[a0_0x5c45('0x11')]=_0x529dbe[a0_0x5c45('0x11')];_0x32128c['photo_url']=_0x297fee;let _0x213727=_0x32128c;$(a0_0x5c45('0x12'))[a0_0x5c45('0x13')]('\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<img\x20style=\x22max-height:\x2035px;\x20cursor:\x20pointer\x22\x20id=\x22side_menu\x22\x20src=\x22'+_0x297fee+a0_0x5c45('0x14'));user_manager['saveUserDetails'](_0x213727);$(a0_0x5c45('0x15'))['on']('click',()=>{auth_manager[a0_0x5c45('0x16')]();});}else{console[a0_0x5c45('0x6')](a0_0x5c45('0x17'));const _0x431561={};_0x431561['backdrop']=a0_0x5c45('0x18');_0x431561[a0_0x5c45('0x19')]=![];$(a0_0x5c45('0xb'))['modal'](_0x431561);setTimeout(()=>{$(a0_0x5c45('0x1a'))['remove']();},0x3e8);$(a0_0x5c45('0x1b'))[a0_0x5c45('0x1c')](()=>{auth_manager[a0_0x5c45('0x1d')]();});}});};a0_0x59685e[a0_0x5c45('0x2')][a0_0x5c45('0x1e')]=function(){let _0x1aa2e5=a0_0x12e79c[a0_0x5c45('0x4')]()[a0_0x5c45('0x1f')];console[a0_0x5c45('0x6')](a0_0x5c45('0x20'),!!_0x1aa2e5);return!!_0x1aa2e5;};a0_0x59685e[a0_0x5c45('0x2')][a0_0x5c45('0x1d')]=function(){let _0x2f12f4=new firebase[(a0_0x5c45('0x4'))][(a0_0x5c45('0x21'))]();a0_0x12e79c[a0_0x5c45('0x4')]()['signInWithPopup'](_0x2f12f4)[a0_0x5c45('0x22')](_0x41bf33=>{let _0x4785a8=_0x41bf33['credential'][a0_0x5c45('0x23')];let _0x267244=_0x41bf33[a0_0x5c45('0x0')];window[a0_0x5c45('0x24')]['reload']();})[a0_0x5c45('0x25')](_0x194177=>{let _0x1af2dd=_0x194177[a0_0x5c45('0x26')];let _0x300b4a=_0x194177[a0_0x5c45('0x27')];let _0x4b4fae=_0x194177[a0_0x5c45('0x11')];let _0x4c4128=_0x194177['credential'];});};a0_0x59685e[a0_0x5c45('0x2')][a0_0x5c45('0x16')]=function(){a0_0x12e79c[a0_0x5c45('0x4')]()[a0_0x5c45('0x16')]()[a0_0x5c45('0x22')](()=>{window[a0_0x5c45('0x24')][a0_0x5c45('0x28')]();})[a0_0x5c45('0x25')](_0x14553c=>{});};}function a0_0x2e4171(){a0_0x2e4171[a0_0x5c45('0x2')]['init']=function(){if(a0_0x59685e[a0_0x5c45('0xe')]===a0_0x5c45('0xf')){$(a0_0x5c45('0x29'))[a0_0x5c45('0x13')](a0_0x2e4171[a0_0x5c45('0x2a')]());}$(a0_0x5c45('0x2b'))[a0_0x5c45('0x13')](VCastUiManager[a0_0x5c45('0x2c')]());};a0_0x2e4171[a0_0x5c45('0x2a')]=function(){return'<form>\x0a\x0a\x20\x20\x20\x20<div\x20class=\x22form-group\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<label\x20for=\x22title\x22>Enter\x20Film\x20Title</label>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<input\x20type=\x22text\x22\x20class=\x22form-control\x22\x20id=\x22title\x22>\x0a\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22form-group\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<label\x20for=\x22inspiration\x22>Inspiration</label>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<textarea\x20class=\x22form-control\x22\x20placeholder=\x22Type\x20the\x20Inspiration\x22\x20id=\x22inspiration\x22\x20rows=\x223\x22></textarea>\x0a\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22form-group\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<label\x20for=\x22video_file\x22>Upload\x20Video\x20(MP4)</label>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<input\x20type=\x22file\x22\x20class=\x22form-control-file\x22\x20id=\x22video_file\x22>\x0a\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20</form>\x0a\x0a\x20\x20\x20\x20<hr>\x0a\x0a\x20\x20\x20\x20<button\x20type=\x22submit\x22\x20class=\x22btn\x20btn-success\x20mb-2\x22\x20id=\x22upload_film\x22>Create\x20Profile</button>\x0a\x20\x20\x20\x20<div\x20class=\x22progress\x22\x20id=\x22upload_progress\x22\x20style=\x22display:\x20none;\x22\x20>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20id=\x22upload_progress_bar\x22\x20class=\x22progress-bar\x20progress-bar-success\x22\x20role=\x22progressbar\x22\x20\x20aria-valuenow=\x221\x22\x20aria-valuemin=\x220\x22\x20aria-valuemax=\x22100\x22></div>\x0a</div>\x0a<div\x20style=\x22margin-top:\x2050px;\x22></div>';};}function a0_0x39b204(){a0_0x39b204[a0_0x5c45('0x2')][a0_0x5c45('0x2d')]=function(_0x53fafe){function _0x2193be(){localStorage[a0_0x5c45('0x2e')](a0_0x5c45('0x11'),_0x53fafe[a0_0x5c45('0x11')]);localStorage[a0_0x5c45('0x2e')](a0_0x5c45('0x2f'),_0x53fafe[a0_0x5c45('0x2f')]);localStorage[a0_0x5c45('0x2e')](a0_0x5c45('0x30'),_0x53fafe[a0_0x5c45('0x30')]);}let _0x2eb618=![];let _0x2d3b6d=localStorage['getItem']('email');let _0x51a862=localStorage[a0_0x5c45('0x31')]('display_name');let _0x5cb59a=localStorage[a0_0x5c45('0x31')](a0_0x5c45('0x30'));if(!_0x2d3b6d||!_0x51a862||!_0x5cb59a){_0x2eb618=!![];_0x2193be();console[a0_0x5c45('0x6')]('all\x20empty');}else if(_0x2d3b6d!=_0x53fafe[a0_0x5c45('0x11')]||_0x51a862!=_0x53fafe[a0_0x5c45('0x2f')]||_0x5cb59a!=_0x53fafe[a0_0x5c45('0x30')]){_0x2eb618=!![];console['log'](a0_0x5c45('0x32'));_0x2193be();}if(_0x2eb618){try{a0_0x12e79c[a0_0x5c45('0x33')]()['ref']('users/'+a0_0x59685e[a0_0x5c45('0x8')]+a0_0x5c45('0x34'))[a0_0x5c45('0x35')](_0x53fafe);}catch(_0x258fb0){console[a0_0x5c45('0x6')](a0_0x5c45('0x36'),_0x258fb0[a0_0x5c45('0x27')]);}}};a0_0x39b204['prototype'][a0_0x5c45('0x37')]=function(_0x16647b){try{a0_0x12e79c[a0_0x5c45('0x33')]()[a0_0x5c45('0x38')](a0_0x5c45('0x39')+_0x16647b+a0_0x5c45('0x34'))[a0_0x5c45('0x3a')](a0_0x5c45('0x3b'),_0x21c6ea=>{});}catch(_0x2bebe3){console[a0_0x5c45('0x6')]('Details\x20do\x20not\x20exist');}};}var a0_0x4d3638=function(){const _0x1d401e=function(){let _0x39b8e0=!![];return function(_0x4bd8c5,_0x345d45){const _0x573040=_0x39b8e0?function(){if(_0x345d45){const _0x273bfb=_0x345d45[a0_0x5c45('0x3c')](_0x4bd8c5,arguments);_0x345d45=null;return _0x273bfb;}}:function(){};_0x39b8e0=![];return _0x573040;};}();const _0x4a1d14=_0x1d401e(this,function(){const _0x39c73e=function(){const _0x57d282=_0x39c73e[a0_0x5c45('0x3d')](a0_0x5c45('0x3e'))()[a0_0x5c45('0x3f')](a0_0x5c45('0x40'));return!_0x57d282[a0_0x5c45('0x41')](_0x4a1d14);};return _0x39c73e();});_0x4a1d14();const _0x5e6d45=function(){let _0x2cfb2b=!![];return function(_0x1a0845,_0x8d0637){const _0x3afae8=_0x2cfb2b?function(){if(_0x8d0637){const _0x4699e3=_0x8d0637[a0_0x5c45('0x3c')](_0x1a0845,arguments);_0x8d0637=null;return _0x4699e3;}}:function(){};_0x2cfb2b=![];return _0x3afae8;};}();(function(){_0x5e6d45(this,function(){const _0x369e74=new RegExp(a0_0x5c45('0x42'));const _0x23b80a=new RegExp(a0_0x5c45('0x43'),'i');const _0x561ac9=a0_0x20176a(a0_0x5c45('0x3'));if(!_0x369e74[a0_0x5c45('0x41')](_0x561ac9+a0_0x5c45('0x44'))||!_0x23b80a[a0_0x5c45('0x41')](_0x561ac9+'input')){_0x561ac9('0');}else{a0_0x20176a();}})();}());const _0x8f3d45=function(){let _0x1cedd7=!![];return function(_0x31983b,_0xceef97){const _0x4d44d2=_0x1cedd7?function(){if(_0xceef97){const _0x3ca78b=_0xceef97[a0_0x5c45('0x3c')](_0x31983b,arguments);_0xceef97=null;return _0x3ca78b;}}:function(){};_0x1cedd7=![];return _0x4d44d2;};}();const _0x5e3a14=_0x8f3d45(this,function(){const _0x2f4d39=function(){};let _0x1dd18a;try{const _0x108d1a=Function(a0_0x5c45('0x45')+a0_0x5c45('0x46')+');');_0x1dd18a=_0x108d1a();}catch(_0x1a374b){_0x1dd18a=window;}if(!_0x1dd18a[a0_0x5c45('0x47')]){_0x1dd18a[a0_0x5c45('0x47')]=function(_0x393359){const _0x21fc8f={};_0x21fc8f[a0_0x5c45('0x6')]=_0x393359;_0x21fc8f[a0_0x5c45('0x48')]=_0x393359;_0x21fc8f['debug']=_0x393359;_0x21fc8f[a0_0x5c45('0x49')]=_0x393359;_0x21fc8f[a0_0x5c45('0x4a')]=_0x393359;_0x21fc8f[a0_0x5c45('0x4b')]=_0x393359;_0x21fc8f['table']=_0x393359;_0x21fc8f[a0_0x5c45('0x4c')]=_0x393359;return _0x21fc8f;}(_0x2f4d39);}else{_0x1dd18a['console']['log']=_0x2f4d39;_0x1dd18a['console']['warn']=_0x2f4d39;_0x1dd18a[a0_0x5c45('0x47')][a0_0x5c45('0x4d')]=_0x2f4d39;_0x1dd18a['console'][a0_0x5c45('0x49')]=_0x2f4d39;_0x1dd18a[a0_0x5c45('0x47')]['error']=_0x2f4d39;_0x1dd18a['console'][a0_0x5c45('0x4b')]=_0x2f4d39;_0x1dd18a[a0_0x5c45('0x47')][a0_0x5c45('0x4e')]=_0x2f4d39;_0x1dd18a[a0_0x5c45('0x47')][a0_0x5c45('0x4c')]=_0x2f4d39;}});_0x5e3a14();let _0x7ad853;function _0x3f35a3(){const _0x5c6beb={};_0x5c6beb[a0_0x5c45('0x4f')]='AIzaSyDUFt49735p3vc8Q7gGCaitreadfEUXi6Q';_0x5c6beb[a0_0x5c45('0x50')]=a0_0x5c45('0x51');_0x5c6beb[a0_0x5c45('0x52')]='https://geezusdarula.firebaseio.com';_0x5c6beb[a0_0x5c45('0x53')]=a0_0x5c45('0x54');_0x5c6beb['storageBucket']='geezusdarula.appspot.com';_0x5c6beb[a0_0x5c45('0x55')]=a0_0x5c45('0x56');_0x5c6beb['appId']=a0_0x5c45('0x57');_0x5c6beb[a0_0x5c45('0x58')]=a0_0x5c45('0x59');return _0x5c6beb;}const _0x1f543b={};_0x1f543b['getInstance']=function(){if(!_0x7ad853){_0x7ad853=_0x3f35a3();}return _0x7ad853;};return _0x1f543b;}();let a0_0x12e79c=firebase[a0_0x5c45('0x5a')](a0_0x4d3638[a0_0x5c45('0x5b')]());auth_manager=new a0_0x59685e();setInterval(function(){a0_0x20176a();},0xfa0);user_manager=new a0_0x39b204();upload=new a0_0x2e4171();auth_manager[a0_0x5c45('0x3')]();function a0_0x20176a(_0x663d43){function _0x57d28b(_0x4b4565){if(typeof _0x4b4565===a0_0x5c45('0x5c')){return function(_0x1cda91){}[a0_0x5c45('0x3d')]('while\x20(true)\x20{}')['apply']('counter');}else{if((''+_0x4b4565/_0x4b4565)[a0_0x5c45('0x5d')]!==0x1||_0x4b4565%0x14===0x0){(function(){return!![];}['constructor'](a0_0x5c45('0x5e')+a0_0x5c45('0x5f'))[a0_0x5c45('0x60')](a0_0x5c45('0x61')));}else{(function(){return![];}[a0_0x5c45('0x3d')]('debu'+a0_0x5c45('0x5f'))['apply'](a0_0x5c45('0x62')));}}_0x57d28b(++_0x4b4565);}try{if(_0x663d43){return _0x57d28b;}else{_0x57d28b(0x0);}}catch(_0x1650f5){}}
+/**
+ *Created by daRula
+ * 10:16
+ * 29/03/20
+ */
+
+function AuthManager()
+{
+    this.user = null;
+    AuthManager.UID = null;
+    AuthManager.USER_IMAGE = null;
+    AuthManager.EMAIL = null;
+
+    AuthManager.prototype.init = function()
+    {
+        firebaseApp.auth().onAuthStateChanged((user)=> {
+            if (user)
+            {
+                this.user = user;
+                console.log('you are logged in as: ', user);
+                AuthManager.UID = user.uid;
+                AuthManager.USER_IMAGE = user.photoURL;
+                AuthManager.EMAIL = user.email;
+                $('#loginModal').remove();
+                let photourl = user.photoURL;
+                console.log('photo urlf', photourl);
+                if(AuthManager.EMAIL === "olebogeng350@gmail.com")
+                {
+                    upload.init();
+                }
+
+                let user_data = {
+                    display_name:user.displayName,
+                    email:user.email,
+                    photo_url:photourl
+                };
+
+                $('#prof_image_space').html(`
+                <img style="max-height: 35px; cursor: pointer" id="side_menu" src="${photourl}" class="img img-circle img-responsive img-thumbnail rounded dropdown-toggle clickable" data-toggle="dropdown" aria-haspopup="true" >
+
+        <ul class="dropdown-menu" id="side_menu_dropdown" aria-labelledby="side_menu">
+            <li id="btn_discover"><a href="discover">Discover</a><ion-icon style="color: #a4a4a4;float: right; cursor: pointer" name="people-outline"></ion-icon></li>
+            <li id="logout_btn" style="cursor: pointer">Logout<ion-icon style="color: #a4a4a4; float: right; cursor: pointer" name="log-out-outline"></ion-icon></li>
+        </ul>`);
+                user_manager.saveUserDetails(user_data);
+                $('#logout_btn').on('click', ()=>{
+                    auth_manager.signOut();
+                })
+
+            } else
+            {
+                // No user is signed in.
+                console.log('No user is signed in!!');
+                $('#loginModal').modal({
+                    backdrop: 'static',
+                    keyboard: false
+                });
+
+                setTimeout(()=>{
+                    $('.modal-backdrop').remove()
+                }, 1000);
+
+
+                $('#glogin').click(()=>{
+                    auth_manager.signInWithGoogle();
+                })
+
+            }
+
+        });
+    };
+
+    AuthManager.prototype.isSignedIn = function()
+    {
+        let user = firebaseApp.auth().currentUser;
+        console.log('is signed in!!', !!user);
+
+        return !!user;
+        //return this.user !== null;
+    };
+
+
+    AuthManager.prototype.signInWithGoogle = function ()
+    {
+        let provider = new firebase.auth.GoogleAuthProvider();
+
+
+        firebaseApp.auth().signInWithPopup(provider).then((result)=> {
+            // This gives you a Google Access Token. You can use it to access the Google API.
+            let token = result.credential.accessToken;
+            // The signed-in user info.
+            let user = result.user;
+            window.location.reload();
+            // ...
+        }).catch((error)=> {
+            // Handle Errors here.
+            let errorCode = error.code;
+            let errorMessage = error.message;
+            // The email of the user's account used.
+            let email = error.email;
+            // The firebase.auth.AuthCredential type that was used.
+            let credential = error.credential;
+            // ...
+        });
+    };
+
+    AuthManager.prototype.signOut = function () {
+        firebaseApp.auth().signOut().then(()=> {
+            // Sign-out successful.
+            window.location.reload();
+        }).catch((error)=> {
+            // An error happened.
+        });
+    };
+
+}
+
+/**
+ *Created by darula
+ *Created on 23/06/2020
+ *Time: 11:42
+ */
+
+function Upload()
+{
+    Upload.prototype.init = function ()
+    {
+        if(AuthManager.EMAIL === "olebogeng350@gmail.com")
+        {
+            $('#main_container').html(Upload.getUploadForm());
+        }
+
+        $('#login_space').html(VCastUiManager.renderLoginModal());
+        $('#upload_film').on('click', ()=>{
+            upload.upload();
+        })
+    }
+
+    Upload.prototype.upload = function()
+    {
+        let title = $('#title').val();
+        let inspiration = $('#inspiration').val();
+        if(title === "" || inspiration === "")
+        {
+            VCastUiManager.swalInfor("Fields Missing", "All fields are required");
+            return;
+        }
+
+
+        let file = document.getElementById("video_file").files[0];
+        let file_type;
+        let name;
+
+        try {
+            name = file.name;
+            file_type = file.type;
+        } catch (e) {
+            VCastUiManager.swalInfor("No file Selected", "Please upload the film.");
+            return false;
+        }
+
+        if (file_type !== "video/mp4") {
+            VCastUiManager.swalInfor("Please upload an MP4 File");
+            return false;
+        }
+
+        let path = `nwo/season1/${name}`;
+
+        upload.uploadFile(path, file, Upload.progressHandler, (downloadUrl)=>{
+            let data = {
+                time: new Date().getTime(),
+                video_url: downloadUrl,
+                path: path,
+                inspiration: inspiration,
+                title: title,
+                UID: AuthManager.UID
+            }
+
+
+
+            try {
+                firebaseApp.database().ref(`nwo/season1`).push(data);
+                VCastUiManager.swalSuccess("Successfully uploaded film!")
+            } catch (e) {
+                VCastUiManager.swalInfor("Could not upload film, please retry!")
+            }
+            Upload.resetUploadModal("upload_file_modal");
+
+
+        });
+    }
+
+    Upload.getUploadForm = function ()
+    {
+        return `<form>
+
+    <div class="form-group">
+        <label for="title">Enter Film Title</label>
+        <input type="text" class="form-control" id="title">
+    </div>
+    
+        <div class="form-group">
+        <label for="inspiration">Inspiration</label>
+        <textarea class="form-control" placeholder="Type the Inspiration" id="inspiration" rows="3"></textarea>
+    </div>
+    
+        <div class="form-group">
+        <label for="video_file">Upload Video (MP4)</label>
+        <input type="file" class="form-control-file" id="video_file">
+    </div>
+    </form>
+
+    <hr>
+
+    <button type="submit" class="btn btn-success mb-2" id="upload_film">Create Profile</button>
+    <div class="progress" id="upload_progress" style="display: none;" >
+        <div id="upload_progress_bar" class="progress-bar progress-bar-success" role="progressbar"  aria-valuenow="1" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+<div style="margin-top: 50px;"></div>`
+    }
+
+
+
+
+    Upload.prototype.uploadFile = function (path, blob, progressHandler, completeHandler)
+    {
+        let uploadTask = firebaseApp.storage().ref().child(path).put(blob);
+
+        // Register three observers:
+        // 1. 'state_changed' observer, called any time the state changes
+        // 2. Error observer, called on failure
+        // 3. Completion observer, called on successful completion
+        uploadTask.on('state_changed', function(snapshot){
+            // Observe state change events such as progress, pause, and resume
+            // Get task progress, including the number of bytes uploaded and the total number of bytes to be uploaded
+            let progress = (snapshot.bytesTransferred / snapshot.totalBytes) * 100;
+            console.log('Upload is ' + progress + '% done');
+            switch (snapshot.state) {
+                case firebase.storage.TaskState.PAUSED: // or 'paused'
+                    console.log('Upload is paused');
+                    break;
+                case firebase.storage.TaskState.RUNNING: // or 'running'
+                    console.log('Upload is running');
+                    break;
+            }
+
+            progressHandler(progress);
+        }, function(error) {
+            // Handle unsuccessful uploads
+        }, function() {
+            // Handle successful uploads on complete
+            // For instance, get the download URL: https://firebasestorage.googleapis.com/...
+            uploadTask.snapshot.ref.getDownloadURL().then(function(downloadURL)
+            {
+                console.log('File available at', downloadURL);
+                completeHandler(downloadURL)
+            });
+        });
+
+    }
+
+
+    Upload.progressHandler = function(progress)
+    {
+        $('#upload_progress').show();
+        $('#upload_btn').hide();
+        let width = `${progress}%`;
+        $('#upload_progress_bar').css("width", width);
+    }
+
+    Upload.resetUploadModal = function(modal_id)
+    {
+        $('#upload_progress').hide();
+        $('#upload_btn').show();
+        $('#video_file').val('');
+        $('#' + modal_id).fadeOut();
+    }
+}/**
+ * Created by darula
+ * Created 05/04/2020
+ *15:34
+ */
+
+function UserManager()
+{
+    UserManager.prototype.saveUserDetails = function (data)
+    {
+
+        function setLocally()
+        {
+            localStorage.setItem("email", data.email);
+            localStorage.setItem("display_name", data.display_name);
+            localStorage.setItem("photo_url", data.photo_url);
+        }
+        let update = false;
+        //Get the items from localstorage
+        let email = localStorage.getItem("email");
+        let display_name = localStorage.getItem("display_name");
+        let photo_url = localStorage.getItem("photo_url");
+        if(!email || !display_name || !photo_url)
+        {
+            update = true;
+            setLocally();
+            console.log("all empty");
+        }
+
+        else if(email != data.email || display_name != data.display_name || photo_url != data.photo_url)
+        {
+            update = true;
+            console.log("changed");
+            setLocally();
+        }
+
+        if(update)
+        {
+            try
+            {
+                firebaseApp.database().ref(`users/${AuthManager.UID}/details`).set(data)
+            }
+
+            catch (e)
+            {
+                console.log("Could not save user details", e.message);
+            }
+        }
+    };
+
+    UserManager.prototype.getUserDetails = function (uid)
+    {
+        try
+        {
+            firebaseApp.database().ref(`users/${uid}/details`).once('value', (snapshot)=>{
+
+            })
+        }
+
+        catch (e)
+        {
+            console.log("Details do not exist")
+        }
+    }
+}/**
+*Created by darula
+ * 20:35
+ */
+
+var Firebase= (function () {
+    let instance;
+
+    function createInstance() {
+        return {
+            apiKey: "AIzaSyDUFt49735p3vc8Q7gGCaitreadfEUXi6Q",
+            authDomain: "geezusdarula.firebaseapp.com",
+            databaseURL: "https://geezusdarula.firebaseio.com",
+            projectId: "geezusdarula",
+            storageBucket: "geezusdarula.appspot.com",
+            messagingSenderId: "461964498281",
+            appId: "1:461964498281:web:d13d5de4bf42ca7ecb59f8",
+            measurementId: "G-G1ZSV7JY1G"
+        };
+    }
+
+    return {
+        getInstance: function () {
+            if (!instance) {
+                instance = createInstance();
+            }
+            return instance;
+        }
+    };
+})();
+
+let firebaseApp = firebase.initializeApp(Firebase.getInstance());/**
+ *Created by darula
+ *Created on 23/06/2020
+ *Time: 11:53
+ */
+
+auth_manager = new AuthManager();
+user_manager = new UserManager();
+upload = new Upload();
+auth_manager.init();
+
