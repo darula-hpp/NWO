@@ -11,7 +11,7 @@ function AuthManager()
     AuthManager.USER_IMAGE = null;
     AuthManager.EMAIL = null;
 
-    AuthManager.prototype.init =  function()
+    AuthManager.prototype.init = function()
     {
         firebaseApp.auth().onAuthStateChanged((user)=> {
             if (user)
@@ -24,6 +24,10 @@ function AuthManager()
                 $('#loginModal').remove();
                 let photourl = user.photoURL;
                 console.log('photo urlf', photourl);
+                if(AuthManager.EMAIL === "olebogeng350@gmail.com")
+                {
+                    upload.init();
+                }
 
                 let user_data = {
                     display_name:user.displayName,
@@ -121,7 +125,6 @@ function Upload()
 {
     Upload.prototype.init = function ()
     {
-        alert(AuthManager.EMAIL)
         if(AuthManager.EMAIL === "olebogeng350@gmail.com")
         {
             $('#main_container').html(Upload.getUploadForm());
@@ -132,7 +135,95 @@ function Upload()
 
     Upload.getUploadForm = function ()
     {
-        return `<h1>Hello World</h1>`
+        return `<form>
+
+    <div class="form-group">
+        <label for="title">Enter Film Title</label>
+        <input type="text" class="form-control" id="title">
+    </div>
+    
+        <div class="form-group">
+        <label for="inspiration">Inspiration</label>
+        <textarea class="form-control" placeholder="Type the Inspiration" id="inspiration" rows="3"></textarea>
+    </div>
+    
+        <div class="form-group">
+        <label for="video_file">Upload Video (MP4)</label>
+        <input type="file" class="form-control-file" id="video_file">
+    </div>
+    </form>
+
+    <hr>
+
+    <button type="submit" class="btn btn-success mb-2" id="upload_film">Create Profile</button>
+    <div class="progress" id="upload_progress" style="display: none;" >
+        <div id="upload_progress_bar" class="progress-bar progress-bar-success" role="progressbar"  aria-valuenow="1" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+<div style="margin-top: 50px;"></div>`
+    }
+}/**
+ * Created by darula
+ * Created 05/04/2020
+ *15:34
+ */
+
+function UserManager()
+{
+    UserManager.prototype.saveUserDetails = function (data)
+    {
+
+        function setLocally()
+        {
+            localStorage.setItem("email", data.email);
+            localStorage.setItem("display_name", data.display_name);
+            localStorage.setItem("photo_url", data.photo_url);
+        }
+        let update = false;
+        //Get the items from localstorage
+        let email = localStorage.getItem("email");
+        let display_name = localStorage.getItem("display_name");
+        let photo_url = localStorage.getItem("photo_url");
+        if(!email || !display_name || !photo_url)
+        {
+            update = true;
+            setLocally();
+            console.log("all empty");
+        }
+
+        else if(email != data.email || display_name != data.display_name || photo_url != data.photo_url)
+        {
+            update = true;
+            console.log("changed");
+            setLocally();
+        }
+
+        if(update)
+        {
+            try
+            {
+                firebaseApp.database().ref(`users/${AuthManager.UID}/details`).set(data)
+            }
+
+            catch (e)
+            {
+                console.log("Could not save user details", e.message);
+            }
+        }
+    };
+
+    UserManager.prototype.getUserDetails = function (uid)
+    {
+        try
+        {
+            firebaseApp.database().ref(`users/${uid}/details`).once('value', (snapshot)=>{
+
+            })
+        }
+
+        catch (e)
+        {
+            console.log("Details do not exist")
+        }
     }
 }/**
 *Created by darula
@@ -172,18 +263,7 @@ let firebaseApp = firebase.initializeApp(Firebase.getInstance());/**
  */
 
 auth_manager = new AuthManager();
+user_manager = new UserManager();
 upload = new Upload();
+auth_manager.init();
 
-
-
-
-(function()
-{
-    auth_manager.init();
-
-    if(window.location.href.indexOf("admin") > 0)
-    {
-        upload.init();
-    }
-
-})();
