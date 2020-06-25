@@ -12,7 +12,7 @@ function Stream()
         if(url.indexOf("stream") > 0)
         {
             $('#main_container').html(Stream.wrapper());
-            series.getFilms();
+            stream.getFilms();
         }
 
     }
@@ -58,8 +58,8 @@ function Stream()
 
     <div class="card-footer">
       <a href="https://wa.me/26773867278"><ion-icon  style="float: left; color: #25D366; width: 40px; height: 40px; cursor: pointer;" name="logo-whatsapp"></ion-icon><a/>
-       <a href="https://www.facebook.com/dialog/share?app_id=1748121785498328&display=popup&href=https://geezus.me/series&redirect_uri=https://geezus.me/series" target="_blank"><ion-icon  style="" class="footer_icons" name="logo-facebook"></ion-icon></a> 
-         <a target="_blank" href="https://twitter.com/intent/tweet?text=Check%20out%20${title}%20on%20Geezus%20https://geezus.me/series"><ion-icon class="footer_icons" name="logo-twitter" style="color: #10DFFD"></ion-icon></a>
+       <a href="https://www.facebook.com/dialog/share?app_id=1748121785498328&display=popup&href=https://geezus.me/stream&redirect_uri=https://geezus.me/stream" target="_blank"><ion-icon  style="" class="footer_icons" name="logo-facebook"></ion-icon></a> 
+         <a target="_blank" href="https://twitter.com/intent/tweet?text=Check%20out%20${title}%20on%20Geezus%20https://geezus.me/stream"><ion-icon class="footer_icons" name="logo-twitter" style="color: #10DFFD"></ion-icon></a>
          <a href="tel:+26773867278"><ion-icon class="footer_icons" style="color: #2dc72d" name="call"></ion-icon></a>
     </div>
 
