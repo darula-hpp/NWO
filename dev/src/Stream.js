@@ -4,20 +4,20 @@
  *Time: 16:29
  */
 
-function Series()
+function Stream()
 {
-    Series.prototype.init = function ()
+    Stream.prototype.init = function ()
     {
         let url = window.location.href;
-        if(url.indexOf("series") > 0)
+        if(url.indexOf("stream") > 0)
         {
-            $('#main_container').html(Series.wrapper());
+            $('#main_container').html(Stream.wrapper());
             series.getFilms();
         }
 
     }
 
-    Series.prototype.getFilms = function ()
+    Stream.prototype.getFilms = function ()
     {
         //$('#tutors').html(`<div id="ftco-loader" style="justify-content: center" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>`)
 
@@ -76,7 +76,7 @@ function Series()
     }
 
 
-    Series.wrapper = function ()
+    Stream.wrapper = function ()
     {
         return `<div class="form-group">
             <input type="text" class="form-control">

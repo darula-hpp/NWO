@@ -8,9 +8,9 @@ auth_manager = new AuthManager();
 user_manager = new UserManager();
 upload = new Upload();
 
-series = new Series();
+stream = new Stream();
 upload.init();
-series.init();
+stream.init();
 
 
 //vcast_player = new VCastPlayer(the_env);
