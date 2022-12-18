@@ -9,6 +9,6 @@ export const conf = require("../config.json") as Config[];
 const activeConfKey = "active-conf";
 export function sessionGetActiveConf(): number {
   const ac = sessionStorage.getItem(activeConfKey);
-  if (ac === undefined || ac === null) return 0;
+  if (ac === undefined || ac === null) return 1;
   return parseInt(ac);
 }

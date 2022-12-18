@@ -156,7 +156,7 @@ const Connect = (props: AlgorandWalletConnectorProps) => {
         {sessionWallet.connected() ? (
           <>
             <Flex alignItems="center" gap="8">
-              <Nft activeConfig={0} sw={sessionWallet} />
+              <Nft activeConfig={1} sw={sessionWallet} />
               <Button
                 borderRadius="full"
                 color="#ffffff"
