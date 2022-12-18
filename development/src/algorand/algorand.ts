@@ -6,7 +6,7 @@ import algosdk, {
   makeAssetTransferTxnWithSuggestedParamsFromObject,
   makePaymentTxnWithSuggestedParamsFromObject,
 } from "algosdk";
-import { blob } from "stream/consumers";
+
 import { conf } from "./config";
 function getClient(activeConf: number): Algodv2 {
   return new algosdk.Algodv2("", conf[activeConf].algod, "");
@@ -26,7 +26,7 @@ export async function CreateToken(
   const create_txn = makeAssetCreateTxnWithSuggestedParamsFromObject({
     from: addr,
     assetName: "The Government",
-    unitName: certname,
+    unitName: "Cosmos",
     assetURL: url,
     assetMetadataHash: undefined,
     manager: addr,
