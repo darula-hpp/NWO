@@ -25,7 +25,7 @@ export async function CreateToken(
 
   const create_txn = makeAssetCreateTxnWithSuggestedParamsFromObject({
     from: addr,
-    assetName: "The Government",
+    assetName: "Cosmic Coin",
     unitName: "Cosmos",
     assetURL: "https://cosmic-swimmer.netlify.app/meta_cosmo.json",
     assetMetadataHash: undefined,
