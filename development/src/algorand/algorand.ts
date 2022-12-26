@@ -27,7 +27,7 @@ export async function CreateToken(
     from: addr,
     assetName: "Cosmic Coin",
     unitName: "Cosmos",
-    assetURL: "https://cosmic-swimmer.netlify.app/meta_cosmo.json",
+    assetURL: "https://cosmic-swimmer.netlify.app/cosmo_meta.json",
     assetMetadataHash: undefined,
     manager: addr,
     total: 23000000000000,
