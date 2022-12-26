@@ -2,6 +2,6 @@
     "standard": "arc69",
     "properties": {"Type": "Cryptocurrency", "Rarity": "Common", "external_url":"https://cosmiccoin.cash/"},
     "version": 1,
-    "image": "https://cosmic-swimmer.netlify.app/cosmo.png",
-    "description": "Symbol of the Cosmic Coin"
+    "image": "https://cosmic-swimmer.netlify.app/symbol.png",
+    "description": "The Cosmic Coin"
   }
