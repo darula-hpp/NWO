@@ -27,7 +27,7 @@ export async function CreateToken(
     from: addr,
     assetName: "The Government",
     unitName: "Cosmos",
-    assetURL: "https://cosmic-swimmer.netlify.app/meta2.json",
+    assetURL: "https://cosmic-swimmer.netlify.app/meta_cosmo.json",
     assetMetadataHash: undefined,
     manager: addr,
     total: 1,
