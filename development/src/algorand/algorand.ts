@@ -30,7 +30,7 @@ export async function CreateToken(
     assetURL: "https://cosmic-swimmer.netlify.app/cosmo_meta.json",
     assetMetadataHash: undefined,
     manager: addr,
-    total: 23000000000000,
+    total: 23000000000000000000,
     decimals: 6,
     defaultFrozen: false,
     suggestedParams: suggested,
